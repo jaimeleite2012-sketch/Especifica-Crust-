@@ -1,3 +1,22 @@
+# Dashboard Crust Itália · Qualidade V25
+
+Versão mobile editável com correção de cache/PWA.
+
+## Correção desta versão
+
+- Arquivos CSS/JS/manifest com `?v=25-cache-corrigido` para evitar navegador carregar versão antiga.
+- Service Worker com política network-first para HTML.
+- Limpeza agressiva de caches antigos na ativação do PWA.
+- Mantém edição mobile, cadastro de novos artigos, marcação de obsoleto e backup local.
+
+## Publicação
+
+Substitua todos os arquivos na raiz do repositório GitHub Pages. Depois acesse:
+
+https://jaimeleite2012-sketch.github.io/Especifica-Crust-/?v=25-cache-corrigido
+
+Se ainda aparecer a versão antiga, remover o app da tela inicial e limpar dados do site no navegador.
+
 # Dashboard Crust Itália · Qualidade · Mobile Editável V24
 
 Dashboard PWA mobile-first gerado a partir da matriz **BRM-MDL-SQ-SGI-033 Rev.23**.
