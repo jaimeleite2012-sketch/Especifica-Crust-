@@ -26,11 +26,17 @@
           <div>
             <span class="pill danger">Rev. <span id="heroRev">23</span></span>
             <span class="pill">Mobile first</span>
+            <span class="pill edit-pill" id="localChangesPill">0 ajustes locais</span>
           </div>
           <h2>Controle técnico na palma da mão</h2>
-          <p>Busque o artigo e abra a ficha técnica com TR, yield, espessura, fluxo, parâmetros críticos, observações de envio para Itália e fornecedores habilitados.</p>
+          <p>Busque o artigo, abra a ficha técnica e atualize informações diretamente no celular durante a rotina de produção. Alterações locais ficam preservadas mesmo quando a base oficial for recarregada.</p>
           <div class="search-wrap">
             <input id="searchBox" type="search" autocomplete="off" placeholder="Pesquisar artigo, cliente, TR, cor, receita...">
+          </div>
+          <div class="tools-row hero-tools">
+            <button class="primary-btn" id="newArticleTop">+ Novo artigo</button>
+            <button class="ghost-btn" id="editSelectedTop">Editar selecionado</button>
+            <button class="ghost-btn" id="exportBackupTop">Exportar backup</button>
           </div>
         </div>
 
@@ -40,7 +46,7 @@
 
         <div class="section-head">
           <div>
-            <p class="eyebrow">Artigos da matriz</p>
+            <p class="eyebrow">Artigos da matriz + ajustes locais</p>
             <h3>Toque no artigo para explodir as informações</h3>
           </div>
           <button class="ghost-btn small" id="clearFilters">Limpar filtros</button>
@@ -70,6 +76,16 @@
         <div id="supplierPanel"></div>
       </section>
 
+      <section id="view-cadastros" class="view">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Atualização operacional mobile</p>
+            <h3>Editar artigo, cadastrar novo e preservar ajustes</h3>
+          </div>
+        </div>
+        <div id="editPanel" class="edit-panel"></div>
+      </section>
+
       <section id="view-revisoes" class="view">
         <div class="section-head">
           <div>
@@ -79,9 +95,11 @@
         </div>
         <div class="tools-row">
           <button class="primary-btn" id="copyReport">Copiar relatório do artigo</button>
+          <button class="ghost-btn" id="exportBackupRev">Exportar ajustes</button>
           <button class="ghost-btn" onclick="window.print()">Imprimir / PDF</button>
         </div>
         <div id="revisionPanel" class="timeline"></div>
+        <div id="localHistoryPanel" class="timeline"></div>
         <div id="obsPanel" class="note-card"></div>
       </section>
     </main>
@@ -92,6 +110,7 @@
       <button class="nav-btn" data-view="fluxo">Fluxo</button>
       <button class="nav-btn" data-view="maquinas">Máquinas</button>
       <button class="nav-btn" data-view="fornecedores">Fornec.</button>
+      <button class="nav-btn" data-view="cadastros">Cadastro</button>
       <button class="nav-btn" data-view="revisoes">Revisões</button>
     </nav>
   </div>

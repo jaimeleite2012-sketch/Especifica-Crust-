@@ -132,7 +132,7 @@ th { color: #d9fff0; background: rgba(70,230,169,.11); position: sticky; top: 0;
 
 .bottom-nav {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-  display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px;
+  display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px;
   padding: 8px 8px calc(8px + env(safe-area-inset-bottom));
   background: rgba(3,17,15,.92); backdrop-filter: blur(18px);
   border-top: 1px solid rgba(255,255,255,.12);
@@ -157,3 +157,51 @@ th { color: #d9fff0; background: rgba(70,230,169,.11); position: sticky; top: 0;
   .hero-card, .detail-panel, .flow-card, .supplier-card, .note-card, .machine-card, .revision-item { box-shadow: none; border-color: #999; color: #000; background: #fff; break-inside: avoid; }
   p, .mini, .doc-meta { color: #222; }
 }
+
+
+/* V24 · edição mobile e governança operacional */
+.hero-tools { margin-top: 14px; padding-bottom: 0; }
+.edit-pill { color: #dcfff4; background: rgba(70,230,169,.13); border-color: rgba(70,230,169,.28); }
+.obsolete-pill { color: #fff1f1; background: rgba(255,79,79,.26); border-color: rgba(255,107,107,.55); }
+.article-card.obsolete {
+  background: linear-gradient(145deg, rgba(120, 0, 0, .82), rgba(70, 0, 0, .72));
+  border-color: rgba(255,107,107,.78);
+  box-shadow: 0 16px 44px rgba(120,0,0,.32);
+}
+.article-card.obsolete:hover, .article-card.obsolete:focus-visible { border-color: rgba(255,210,210,.95); box-shadow: 0 22px 56px rgba(150,0,0,.42); }
+.article-card.local { border-style: dashed; }
+.obsolete-box { border-color: rgba(255,107,107,.55); background: linear-gradient(145deg, rgba(120,0,0,.35), rgba(255,255,255,.04)); }
+.detail-actions { margin: 14px 0 8px; flex-wrap: wrap; overflow: visible; }
+.edit-panel { display: grid; gap: 12px; }
+.edit-card {
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, rgba(255,255,255,.105), rgba(255,255,255,.04));
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+.form-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+.form-field { display: grid; gap: 6px; }
+.form-field span { color: var(--muted); font-size: .78rem; font-weight: 800; }
+.form-field input, .form-field textarea, .form-field select {
+  width: 100%; border-radius: 15px; border: 1px solid rgba(255,255,255,.16);
+  background: rgba(4,15,14,.72); color: var(--text); padding: 12px 13px; outline: none; font: inherit;
+}
+.form-field textarea { resize: vertical; min-height: 98px; }
+.form-field input:focus, .form-field textarea:focus, .form-field select:focus { border-color: var(--accent); box-shadow: 0 0 0 4px rgba(70,230,169,.12); }
+.form-field.full, .form-actions.full { grid-column: 1 / -1; }
+.form-field.checkbox { display: flex; align-items: center; gap: 10px; padding: 12px; border-radius: 15px; border: 1px solid var(--line); background: rgba(0,0,0,.16); }
+.form-field.checkbox input { width: 22px; height: 22px; }
+.form-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.danger-btn { min-height: 40px; padding: 10px 13px; border-radius: 14px; font-weight: 900; color: #fff1f1; background: rgba(180,0,0,.34); border: 1px solid rgba(255,107,107,.45); cursor: pointer; }
+.file-label { display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.local-note { border-color: rgba(70,230,169,.25); background: rgba(70,230,169,.08); }
+.local-rev .rev-badge { background: #d8fff0; }
+.toast {
+  position: fixed; left: 50%; bottom: calc(78px + env(safe-area-inset-bottom)); transform: translateX(-50%);
+  z-index: 80; padding: 12px 16px; max-width: min(92vw, 520px); border-radius: 999px;
+  color: #04211d; background: var(--accent); box-shadow: var(--shadow); font-weight: 1000; text-align: center;
+}
+@media (min-width: 760px) { .form-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 380px) { .nav-btn { font-size: .63rem; } .bottom-nav { gap: 2px; padding-left: 4px; padding-right: 4px; } }
+@media print { .edit-panel, .edit-card, .toast, .danger-btn, .file-label { display: none !important; } }

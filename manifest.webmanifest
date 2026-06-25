@@ -1,7 +1,7 @@
 {
-  "name": "Dashboard Crust Itália · Qualidade",
-  "short_name": "Crust Qualidade",
-  "description": "Dashboard mobile de especificações técnicas crust Itália.",
+  "name": "Crust Qualidade Mobile Editável",
+  "short_name": "Crust Quali",
+  "description": "Dashboard mobile editável para especificações Crust Itália.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#071716",

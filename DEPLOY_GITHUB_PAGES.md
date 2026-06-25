@@ -1,39 +1,39 @@
-# Conclusão da publicação · GitHub Pages
+# Deploy GitHub Pages · Dashboard Crust Itália V24
 
-Repositório alvo:
+## Estrutura obrigatória na raiz
 
-`jaimeleite2012-sketch/Especifica-Crust-`
+- `index.html`
+- `style.css`
+- `app.js`
+- `manifest.webmanifest`
+- `sw.js`
+- `.nojekyll`
+- `README.md`
+- `data/especificacao-crust-rev23.json`
+- `assets/icon.svg`
 
-URL esperada após ativação do GitHub Pages:
+## Ativação
+
+1. Abra o repositório `jaimeleite2012-sketch/Especifica-Crust-`.
+2. Vá em `Settings > Pages`.
+3. Em `Build and deployment`, selecione `Deploy from a branch`.
+4. Selecione branch `main` e pasta `/root`.
+5. Clique em `Save`.
+
+## URL esperada
 
 `https://jaimeleite2012-sketch.github.io/Especifica-Crust-/`
 
-## Checklist final
+## Após atualizar arquivos
 
-1. Confirme que estes arquivos estão na raiz do repositório:
-   - `index.html`
-   - `style.css`
-   - `app.js`
-   - `manifest.webmanifest`
-   - `sw.js`
-   - `.nojekyll`
-   - `README.md`
-   - `assets/icon.svg`
-   - `data/especificacao-crust-rev23.json`
+No celular, feche e abra novamente o app. Se a versão antiga continuar aparecendo, atualize a página no navegador uma vez. O novo service worker `crust-qualidade-v24-mobile-edit` atualizará o cache.
 
-2. No GitHub, abra o repositório `Especifica-Crust-`.
-3. Entre em `Settings > Pages`.
-4. Em `Build and deployment`, selecione:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Clique em `Save`.
-6. Aguarde a publicação e acesse a URL esperada acima.
+## Backup dos ajustes locais
 
-## Observação importante
+Antes de trocar celular, limpar cache ou alterar domínio/URL, use no dashboard:
 
-O app ChatGPT/GitHub retornou erro 403 ao tentar gravar automaticamente no repositório:
+`Cadastro > Exportar backup`
 
-`Resource not accessible by integration`
+Depois, no novo celular:
 
-Isso indica que a integração ainda não tem permissão de escrita nesse repositório. Para permitir conclusão automática em próximas versões, configure o app GitHub conectado ao ChatGPT para ter acesso ao repositório `Especifica-Crust-`.
+`Cadastro > Importar backup`
