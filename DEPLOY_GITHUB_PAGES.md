@@ -1,27 +1,39 @@
-# Como subir no GitHub Pages
+# Conclusão da publicação · GitHub Pages
 
-## Estrutura esperada no repositório
+Repositório alvo:
 
-```text
-/
-├── index.html
-├── style.css
-├── app.js
-├── manifest.webmanifest
-├── sw.js
-├── README.md
-├── assets/
-│   └── icon.svg
-└── data/
-    └── especificacao-crust-rev23.json
-```
+`jaimeleite2012-sketch/Especifica-Crust-`
 
-## Recomendação executiva
+URL esperada após ativação do GitHub Pages:
 
-Não usar o repositório `show-biblico-ibc` para este dashboard, porque ele tem outro propósito. Para governança e segurança, crie um repositório específico:
+`https://jaimeleite2012-sketch.github.io/Especifica-Crust-/`
 
-`dashboard-crust-qualidade`
+## Checklist final
 
-## Atualização futura da matriz
+1. Confirme que estes arquivos estão na raiz do repositório:
+   - `index.html`
+   - `style.css`
+   - `app.js`
+   - `manifest.webmanifest`
+   - `sw.js`
+   - `.nojekyll`
+   - `README.md`
+   - `assets/icon.svg`
+   - `data/especificacao-crust-rev23.json`
 
-Quando a planilha matriz mudar, gere novamente o arquivo `data/especificacao-crust-rev23.json` e o `app.js` com a nova base. O dashboard foi estruturado para aceitar evolução: importador Excel, autenticação, controle de permissões e integração com Power BI/SAP podem ser adicionados em versões seguintes.
+2. No GitHub, abra o repositório `Especifica-Crust-`.
+3. Entre em `Settings > Pages`.
+4. Em `Build and deployment`, selecione:
+   - Source: `Deploy from a branch`
+   - Branch: `main`
+   - Folder: `/root`
+5. Clique em `Save`.
+6. Aguarde a publicação e acesse a URL esperada acima.
+
+## Observação importante
+
+O app ChatGPT/GitHub retornou erro 403 ao tentar gravar automaticamente no repositório:
+
+`Resource not accessible by integration`
+
+Isso indica que a integração ainda não tem permissão de escrita nesse repositório. Para permitir conclusão automática em próximas versões, configure o app GitHub conectado ao ChatGPT para ter acesso ao repositório `Especifica-Crust-`.
