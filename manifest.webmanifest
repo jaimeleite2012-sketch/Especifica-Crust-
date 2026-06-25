@@ -1,0 +1,18 @@
+{
+  "name": "Dashboard Crust Itália · Qualidade",
+  "short_name": "Crust Qualidade",
+  "description": "Dashboard mobile de especificações técnicas crust Itália.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#071716",
+  "theme_color": "#052e2b",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

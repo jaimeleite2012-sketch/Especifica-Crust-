@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#052e2b">
+  <title>Dashboard Crust Itália · Qualidade</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Qualidade · Desenvolvimento de Produto e Processo</p>
+        <h1>Especificações Crust Itália</h1>
+        <p class="doc-meta" id="docMeta">Carregando matriz...</p>
+      </div>
+      <button class="ghost-btn" id="btnInstall" hidden>Instalar</button>
+    </header>
+
+    <main>
+      <section id="view-principal" class="view active">
+        <div class="hero-card">
+          <div>
+            <span class="pill danger">Rev. <span id="heroRev">23</span></span>
+            <span class="pill">Mobile first</span>
+          </div>
+          <h2>Controle técnico na palma da mão</h2>
+          <p>Busque o artigo e abra a ficha técnica com TR, yield, espessura, fluxo, parâmetros críticos, observações de envio para Itália e fornecedores habilitados.</p>
+          <div class="search-wrap">
+            <input id="searchBox" type="search" autocomplete="off" placeholder="Pesquisar artigo, cliente, TR, cor, receita...">
+          </div>
+        </div>
+
+        <div class="kpi-grid" id="kpiGrid"></div>
+
+        <div class="filters" id="filters"></div>
+
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Artigos da matriz</p>
+            <h3>Toque no artigo para explodir as informações</h3>
+          </div>
+          <button class="ghost-btn small" id="clearFilters">Limpar filtros</button>
+        </div>
+        <div id="articleGrid" class="article-grid"></div>
+      </section>
+
+      <section id="view-ficha" class="view">
+        <div id="detailPanel" class="detail-panel"></div>
+      </section>
+
+      <section id="view-fluxo" class="view">
+        <div id="flowPanel"></div>
+      </section>
+
+      <section id="view-maquinas" class="view">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Parâmetros de máquinas</p>
+            <h3>Processo detalhado · Arianna/F6/Mulan/Forge</h3>
+          </div>
+        </div>
+        <div id="machinePanel" class="machine-grid"></div>
+      </section>
+
+      <section id="view-fornecedores" class="view">
+        <div id="supplierPanel"></div>
+      </section>
+
+      <section id="view-revisoes" class="view">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Governança documental</p>
+            <h3>Histórico de revisões e observações</h3>
+          </div>
+        </div>
+        <div class="tools-row">
+          <button class="primary-btn" id="copyReport">Copiar relatório do artigo</button>
+          <button class="ghost-btn" onclick="window.print()">Imprimir / PDF</button>
+        </div>
+        <div id="revisionPanel" class="timeline"></div>
+        <div id="obsPanel" class="note-card"></div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Navegação principal">
+      <button class="nav-btn active" data-view="principal">Principal</button>
+      <button class="nav-btn" data-view="ficha">Ficha</button>
+      <button class="nav-btn" data-view="fluxo">Fluxo</button>
+      <button class="nav-btn" data-view="maquinas">Máquinas</button>
+      <button class="nav-btn" data-view="fornecedores">Fornec.</button>
+      <button class="nav-btn" data-view="revisoes">Revisões</button>
+    </nav>
+  </div>
+
+  <template id="emptyTemplate">
+    <div class="empty-state">
+      <h3>Nenhum artigo encontrado</h3>
+      <p>Revise a busca ou limpe os filtros para voltar à lista completa.</p>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
