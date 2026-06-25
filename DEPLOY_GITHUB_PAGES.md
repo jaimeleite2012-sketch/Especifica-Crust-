@@ -1,39 +1,45 @@
-# Deploy GitHub Pages · Dashboard Crust Itália V24
+# Publicação da V26 GitHub Sync
 
-## Estrutura obrigatória na raiz
+1. Substitua todos os arquivos do repositório pelos arquivos deste pacote.
+2. Confirme que o arquivo abaixo existe no repositório:
 
-- `index.html`
-- `style.css`
-- `app.js`
-- `manifest.webmanifest`
-- `sw.js`
-- `.nojekyll`
-- `README.md`
-- `data/especificacao-crust-rev23.json`
-- `assets/icon.svg`
+```text
+data/crust-sync-store.json
+```
 
-## Ativação
+3. No GitHub, mantenha GitHub Pages em:
 
-1. Abra o repositório `jaimeleite2012-sketch/Especifica-Crust-`.
-2. Vá em `Settings > Pages`.
-3. Em `Build and deployment`, selecione `Deploy from a branch`.
-4. Selecione branch `main` e pasta `/root`.
-5. Clique em `Save`.
+```text
+Settings > Pages > Deploy from a branch > main > /root
+```
 
-## URL esperada
+4. Acesse:
 
-`https://jaimeleite2012-sketch.github.io/Especifica-Crust-/`
+```text
+https://jaimeleite2012-sketch.github.io/Especifica-Crust-/?v=26-github-sync
+```
 
-## Após atualizar arquivos
+5. No primeiro acesso, vá em:
 
-No celular, feche e abra novamente o app. Se a versão antiga continuar aparecendo, atualize a página no navegador uma vez. O novo service worker `crust-qualidade-v24-mobile-edit` atualizará o cache.
+```text
+Cadastro > Banco central GitHub API
+```
 
-## Backup dos ajustes locais
+6. Cole o token autorizado e clique em **Salvar conexão**.
+7. Clique em **Baixar atualização central**.
+8. Faça uma pequena alteração de teste e salve. A alteração deverá ser enviada ao arquivo:
 
-Antes de trocar celular, limpar cache ou alterar domínio/URL, use no dashboard:
+```text
+data/crust-sync-store.json
+```
 
-`Cadastro > Exportar backup`
+## Teste de validação
 
-Depois, no novo celular:
+- Altere um artigo no celular com token configurado.
+- Abra o dashboard no computador com `?v=26-github-sync`.
+- Clique em **Cadastro > Baixar atualização central** ou atualize a página.
+- A alteração deve aparecer também no computador.
 
-`Cadastro > Importar backup`
+## Observação
+
+A gravação central depende da GitHub API. Sem internet ou sem token, o dashboard mantém a alteração localmente e avisa que a sincronização central não foi realizada.

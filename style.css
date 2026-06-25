@@ -205,3 +205,11 @@ th { color: #d9fff0; background: rgba(70,230,169,.11); position: sticky; top: 0;
 @media (min-width: 760px) { .form-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 380px) { .nav-btn { font-size: .63rem; } .bottom-nav { gap: 2px; padding-left: 4px; padding-right: 4px; } }
 @media print { .edit-panel, .edit-card, .toast, .danger-btn, .file-label { display: none !important; } }
+
+/* V26 GitHub Sync */
+.sync-card { border-color: rgba(70,230,169,.34); background: linear-gradient(145deg, rgba(7,67,59,.92), rgba(5,33,31,.92)); }
+.sync-card h3 { margin-bottom: 8px; }
+#syncStatusPill { max-width: 100%; white-space: normal; background: rgba(70,230,169,.12); border-color: rgba(70,230,169,.34); }
+.form-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.form-actions .primary-btn, .form-actions .ghost-btn, .form-actions .danger-btn { flex: 1 1 160px; }
+@media (max-width: 560px) { .form-actions .primary-btn, .form-actions .ghost-btn, .form-actions .danger-btn { flex-basis: 100%; } }

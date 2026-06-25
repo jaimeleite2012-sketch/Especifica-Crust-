@@ -1,9 +1,19 @@
-/* Dashboard Crust Itália · Mobile Editável V24
+/* Dashboard Crust Itália · V26 GitHub Sync
    Base oficial: BRM-MDL-SQ-SGI-033 Rev.23.
-   Objetivo: consulta + atualização operacional no celular sem perder ajustes locais. */
-const BASE_DB = {"documento":{"titulo":"Especificações Técnica Crust Itália","codigo":"BRM-MDL-SQ-SGI-033","revisao":"23","origem":"Planilha matriz enviada","geradoEm":"2026-06-25 00:00","responsavelAplicacao":"Qualidade / Desenvolvimento de Produto e Processo","alertaConfidencialidade":"Dados técnicos industriais; avaliar publicação em repositório privado antes de compartilhar.","versaoAplicacao":"Mobile Editável V24"},"kpis":{"artigos":19,"clientes":8,"trs":7,"receitas":3,"fornecedoresAprovados":34,"fornecedoresEmTeste":1,"ultimaRevisao":"23","dataUltimaRevisao":"2026-02-02"},"artigos":[{"id":"sella-ray-wb-brazil","artigo":"SELLA RAY WB BRAZIL","tr":"22","cor":"PRETO","codigoCor":"311","cliente":"RMG","yield":"-9","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA DIVIDIR 12/13","caracteristicasFinais":"(PIENO FIORE / (DIVIDIDO 12/13) CLASSIFICADO","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA DIVIDIR 12/13"],"pontosCriticos":["(PIENO FIORE / (DIVIDIDO 12/13) CLASSIFICADO"],"fornecedores":{"TYSON":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 22","MARIO","Yield -9"],"possuiParametrosMaquina":false},{"id":"volante-premium-wb-usa-hns-bbs-beef-tyson","artigo":"VOLANTE PREMIUM\n(WB USA HNS/BBS) (BEEF /TYSON)","tr":"33","cor":"(LOLITA/NIRVANA) PRETO","codigoCor":"311","cliente":"RMG / MÉXICO","yield":"-9","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCAR / LIXAR / CLASSIFICAR","caracteristicasFinais":"LIXADO 320/400 OU 500 / CLASSIFICA SEM MARCA CENTRAL\n(MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCAR","LIXAR","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCAR / LIXAR / CLASSIFICAR","LIXADO 320/400 OU 500 / CLASSIFICA SEM MARCA CENTRAL","(MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)"],"fornecedores":{"BEEF / LAMIPEL":"Aprovado"},"tags":["RMG / MÉXICO","TR 33","MARIO","Yield -9"],"possuiParametrosMaquina":false},{"id":"volante-premium-imperial","artigo":"VOLANTE PREMIUM (IMPERIAL)","tr":"33","cor":"NATURAL GEE\nCRYSATL GREY\nWARM HORIZON\nHOT CHOCOLATE\nSPACE GREY\nDARK AEGEAN\nDK SPACE GRAY","codigoCor":"7738\n7741\n03292\n03300\n7733\n7735\n7723","cliente":"MÉXICO","yield":"-9,5","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12,/13/ ESTUCAR / LIXAR / CLASSIFICAR","caracteristicasFinais":"LIXADO 320/400 OU 500 / CLASSIFICA SEM MARCA CENTRAL\n(MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12,","13","ESTUCAR","LIXAR","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12,/13/ ESTUCAR / LIXAR / CLASSIFICAR","LIXADO 320/400 OU 500 / CLASSIFICA SEM MARCA CENTRAL","(MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)"],"fornecedores":{"BEEF / LAMIPEL":"Aprovado"},"tags":["MÉXICO","TR 33","MARIO","Yield -9,5"],"possuiParametrosMaquina":false},{"id":"palladio-meridian","artigo":"PALLADIO/\nMERIDIAN","tr":"44","cor":"PRETO\n/CINZA\n/BEIGE","codigoCor":"311\n3705\n395\n5245","cliente":"AFX","yield":"-5","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"BAUCE / TOOGLING","caracteristicasFinais":"-","fluxoPassos":["BAUCE","TOOGLING"],"pontosCriticos":["BAUCE / TOOGLING"],"fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"},"tags":["AFX","TR 44","MARIO","Yield -5"],"possuiParametrosMaquina":false},{"id":"volante-julia-wb-brazil","artigo":"VOLANTE JULIA WB BRAZIL","tr":"33","cor":"PRETO/MARROM/CINZA/","codigoCor":"311/\n737\n309\n645\n7363\n8713","cliente":"AUTOLIV","yield":"-9.5","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / LIXAR / FULLÃO / TOOGING / CLASSIFICAR","caracteristicasFinais":"CLASSIFICADO (CLASS. A E B MONTADO NO MESMO PALLET)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","LIXAR","FULLÃO","TOOGING","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / LIXAR / FULLÃO / TOOGING / CLASSIFICAR","CLASSIFICADO (CLASS"],"fornecedores":{"SMX":"Aprovado","JANGADA":"Reprov.","APUCA":"Aprovado","NAUSSA":"Reprov.","CCO":"Aprovado","CENCOPROD":"Aprovado","BEEF / LAMIPEL":"Aprovado","TYSON":"Aprovado","SCHNEIDER":"Aprovado","JBS":"Aprovado","MINERVA":"EM TESTE\n1. 10 PELES AGUARDANDO \n2. 300 PELES AGUARDANDO"},"tags":["AUTOLIV","TR 33","MARIO","Yield -9.5"],"possuiParametrosMaquina":false},{"id":"volante-julia-wb-brazil","artigo":"VOLANTE JULIA WB BRAZIL","tr":"33","cor":"PRETO (BACKEN BLACK)","codigoCor":"07700","cliente":"MÉXICO BRUSACOSCO","yield":"-9.5","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / LIXAR / FULÃO / TOOGING / CLASSIFICAR","caracteristicasFinais":"CLASSIFICADO (CLASS. A E B MONTADO NO MESMO PALLET)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","LIXAR","FULÃO","TOOGING","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / LIXAR / FULÃO / TOOGING / CLASSIFICAR","CLASSIFICADO (CLASS"],"fornecedores":{"SMX":"Aprovado","JANGADA":"Reprov.","APUCA":"Aprovado","NAUSSA":"Reprov.","CCO":"Aprovado","CENCOPROD":"Aprovado","BEEF / LAMIPEL":"Aprovado","TYSON":"Aprovado","SCHNEIDER":"Aprovado","JBS":"Aprovado","MINERVA":"EM TESTE\n1. 10 PELES AGUARDANDO \n2. 300 PELES AGUARDANDO"},"tags":["MÉXICO BRUSACOSCO","TR 33","MARIO","Yield -9.5"],"possuiParametrosMaquina":false},{"id":"volante-standart-wb-brazil","artigo":"VOLANTE STANDART WB BRAZIL","tr":"33","cor":"PRETO","codigoCor":"311","cliente":"RMG","yield":"-7","espessuraDivisora":"1,3 /1,4","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 13/14 / ESTUCAR / LIXAR / FULONAR / TOOGLING","caracteristicasFinais":"TOOGLING 8CM / CLASSIFICADO (CLASS. A E B MONTADO NO MESMO PALLET)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 13/14","ESTUCAR","LIXAR","FULONAR","TOOGLING"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 13/14 / ESTUCAR / LIXAR / FULONAR / TOOGLING","TOOGLING 8CM / CLASSIFICADO (CLASS"],"fornecedores":{"SMX":"Aprovado","NAUSSA":"Reprov.","TYSON":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 33","MARIO","Yield -7"],"possuiParametrosMaquina":false},{"id":"volante-roto-wb-brazil","artigo":"VOLANTE ROTO WB BRAZIL","tr":"33","cor":"PRETO","codigoCor":"311","cliente":"RMG","yield":"-7","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 /ESTUCA /  LIXAR / FULÃO / TOOGING / CLASSIFICAR","caracteristicasFinais":"TOOGLING 8CM / CLASSIFICADO (CLASS. A E B MONTADO NO MESMO PALLET)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCA","LIXAR","FULÃO","TOOGING","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 /ESTUCA /  LIXAR / FULÃO / TOOGING / CLASSIFICAR","TOOGLING 8CM / CLASSIFICADO (CLASS"],"fornecedores":{"BEEF / LAMIPEL":"Aprovado"},"tags":["RMG","TR 33","MARIO","Yield -7"],"possuiParametrosMaquina":false},{"id":"arianna-wb-brazil-ice","artigo":"ARIANNA WB BRAZIL - ICE","tr":"33/44\n(MONTE)","cor":"MARROM\nT-MORO\nBEIGE\nMARRONE CHIARO\nNERO(PRETO)\nGRIGIO (CINZA)\nROSSO(VERMELHO)\nROSSO ( FONDO CAMPEONE)","codigoCor":"3040\n3060\n2010\n3050\n311\n7010\n6010\n6020","cliente":"ICE","yield":"+2","espessuraDivisora":"1,1/1,2","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA /\nDIVIDIR 12/13/\nESTUCO / LIXA / TOOGLING / CLASSIFICAR","caracteristicasFinais":"EXPANSSÃO TOOGLING 6-8CM\nREBAIXADO WET BLUE 1,1 / 1,2\nMOLISSA VELOCIDADE 8MTS / 5,5,6,6 OU 6,6,7,7\nCONTROLAR BEM A MACIEZ ( MIN 3.5 )\nEMBALAGEM 300-320 PELES NO MÁXIMO POR PALLET\nRESTRIÇÃO TAMANHO MÁX 55FT²","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCO","LIXA","TOOGLING","CLASSIFICAR"],"pontosCriticos":["ESTUCO / LIXA / TOOGLING / CLASSIFICAR","EXPANSSÃO TOOGLING 6-8CM","CONTROLAR BEM A MACIEZ ( MIN 3","EMBALAGEM 300-320 PELES NO MÁXIMO POR PALLET","RESTRIÇÃO TAMANHO MÁX 55FT²"],"fornecedores":{"SMX":"Aprovado","CENCOPROD":"Aprovado","JBS":"Aprovado"},"tags":["ICE","TR 33/44\n(MONTE)","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"f6-wb-brazil-ice","artigo":"F6 WB BRAZIL - ICE","tr":"22","cor":"BEIGE\nMARRONE CHIARO\nNERO(PRETO)\nGRIGIO (CINZA)\nROSSO ( FONDO CAMPEONE)","codigoCor":"2010\n3050\n311\n7010\n6020","cliente":"ICE","yield":"+2","espessuraDivisora":"1,1/1,2","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA /ESTUCO / LIXA / TOOGLING / CLASSIFICAR","caracteristicasFinais":"EXPANSSÃO TOOGLING 6-8CM\nREBAIXADO WET BLUE 1,1 / 1,2\nMOLISSA VELOCIDADE 8MTS / 5,5,6,6 OU 6,6,7,7\nCONTROLAR BEM A MACIEZ ( MIN 3.5 )\nEMBALAGEM 300-320 PELES NO MÁXIMO POR PALLET\nRESTRIÇÃO TAMANHO MÁX 55FT²","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","ESTUCO","LIXA","TOOGLING","CLASSIFICAR"],"pontosCriticos":["RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA /ESTUCO / LIXA / TOOGLING / CLASSIFICAR","EXPANSSÃO TOOGLING 6-8CM","CONTROLAR BEM A MACIEZ ( MIN 3","EMBALAGEM 300-320 PELES NO MÁXIMO POR PALLET","RESTRIÇÃO TAMANHO MÁX 55FT²"],"fornecedores":{},"tags":["ICE","TR 22","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"arianna-omega-leather","artigo":"ARIANNA -ÔMEGA LEATHER","tr":"33","cor":"PRETO","codigoCor":"311","cliente":"ÔMEGA LEATHER","yield":"+2","espessuraDivisora":"1,1/1,2","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA / ESTUCO / LIXA / TOOGLING / CLASSIFICAR","caracteristicasFinais":"EXPANSSÃO TOOGLING 6-8CM\nREBAIXADO WET BLUE 1,2 / 1,3\nCONTROLAR BEM A MACIEZ CRUT 3,5 MIN\nRESTRIÇÃO DE ATÉ 3  MARCA DE FOGO","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","ESTUCO","LIXA","TOOGLING","CLASSIFICAR"],"pontosCriticos":["RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA / ESTUCO / LIXA / TOOGLING / CLASSIFICAR","EXPANSSÃO TOOGLING 6-8CM","CONTROLAR BEM A MACIEZ CRUT 3,5 MIN","RESTRIÇÃO DE ATÉ 3  MARCA DE FOGO"],"fornecedores":{"SMX":"Aprovado","CENCOPROD":"Aprovado","JBS":"Aprovado"},"tags":["ÔMEGA LEATHER","TR 33","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"mulan","artigo":"MULAN","tr":"TR22","cor":"NERO\nBRANDY","codigoCor":"311\n3010","cliente":"RMG","yield":"+2","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 /CLASSIFICAR","caracteristicasFinais":"PIENO FIORE\nREBAIXADO WET BLUE 1,1 / 1,2\nMOLISSA VELOCIDADE 8MTS / 5,5,6,6 OU 6,6,7,7\n(CONTROLAR BEM A MACIEZ  CRUST 3.5 MIN)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 1,2","1,3","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 /CLASSIFICAR","(CONTROLAR BEM A MACIEZ  CRUST 3"],"fornecedores":{},"tags":["RMG","TR TR22","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"forge","artigo":"FORGE","tr":"TR33","cor":"NERO\nGREY(CINZA)\nBEIGE","codigoCor":"311\n6770\n4255","cliente":"RMG","yield":"+2","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 / CLASSIFICAR","caracteristicasFinais":"PIENO FIORE\nREBAIXADO WET BLUE 1,1 / 1,2\nMOLISSA VELOCIDADE 8MTS / 5,5,6,6 OU 6,6,7,7\n(CONTROLAR BEM A MACIEZ  CRUST 3.5 MIN)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 1,2","1,3","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 / CLASSIFICAR","(CONTROLAR BEM A MACIEZ  CRUST 3"],"fornecedores":{},"tags":["RMG","TR TR33","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"moritz-wb-brazil","artigo":"MORITZ WB BRAZIL","tr":"44","cor":"PRETO\nMARROM\nBLOND","codigoCor":"311\n3020\n5270","cliente":"RMG","yield":"+2","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA/VÁCUO / TOOGLING 5CM / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCO / LIXA","caracteristicasFinais":"RESTRIÇÃO DE TAMANHO (MÍNIMO 4MT²);\nREBAIXADO WET BLUE 1,2 / 1,3","fluxoPassos":["RETORSA","VÁCUO","TOOGLING 5CM","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCO","LIXA"],"pontosCriticos":["RETORSA/VÁCUO / TOOGLING 5CM / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCO / LIXA","RESTRIÇÃO DE TAMANHO (MÍNIMO 4MT²)"],"fornecedores":{"SMX":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 44","MARIO","Yield +2"],"possuiParametrosMaquina":false},{"id":"sella-dk-obsoleto","artigo":"SELLA DK (OBSOLETO)","tr":"44","cor":"PRETO","codigoCor":"","cliente":"","yield":"-9","espessuraDivisora":"1,2/1,3 (-)","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO / AEREO/ MOLISSA /REFILA","caracteristicasFinais":"Tamanho M² entre 4,0 e 5,1","fluxoPassos":["RETORSA","VÁCUO","AEREO","MOLISSA","REFILA"],"pontosCriticos":[],"fornecedores":{"SMX":"Aprovado","APUCA":"Aprovado","JBS":"Aprovado"},"tags":["TR 44","MARIO","Yield -9"],"possuiParametrosMaquina":false},{"id":"ginevra-dk","artigo":"GINEVRA DK","tr":"34","cor":"PRETO\nBEGE","codigoCor":"311\n2367","cliente":"RMG","yield":"","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO / ÁEREO / MOLISA / REFILA /  DIVISORA / ESTUCO / LIXA","caracteristicasFinais":"TAMANHO M² ENTRE 4,0 E 5,1","fluxoPassos":["RETORSA","VÁCUO","ÁEREO","MOLISA","REFILA","DIVISORA","ESTUCO","LIXA"],"pontosCriticos":["RETORSA / VÁCUO / ÁEREO / MOLISA / REFILA /  DIVISORA / ESTUCO / LIXA"],"fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 34","MARIO"],"possuiParametrosMaquina":false},{"id":"ginevra-wb-brazil","artigo":"GINEVRA WB BRAZIL","tr":"44","cor":"PRETO","codigoCor":"311","cliente":"RMG","yield":"-9","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO / AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCAR / LIXAR","caracteristicasFinais":"METRAGEM MÍNIMA M² 4,0\nDIVIDIDO /ESTUCO/ LIXADO","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCAR","LIXAR"],"pontosCriticos":["RETORSA / VÁCUO / AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCAR / LIXAR","METRAGEM MÍNIMA M² 4,0","DIVIDIDO /ESTUCO/ LIXADO"],"fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 44","MARIO","Yield -9"],"possuiParametrosMaquina":false},{"id":"ares-wb-brazil-jbs","artigo":"ARES (WB BRAZIL/JBS )","tr":"33","cor":"CINNAMON BROWN","codigoCor":"3030","cliente":"RMG","yield":"-9","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO COM MAIS ENGRAXE","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILAR\nDIVIDIR 12/13","caracteristicasFinais":"PIENO FIORE / (DIVIDIDO 12/13) CLASSIFICADO","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILAR","DIVIDIR 12/13"],"pontosCriticos":["PIENO FIORE / (DIVIDIDO 12/13) CLASSIFICADO"],"fornecedores":{"JBS":"Aprovado"},"tags":["RMG","TR 33","MARIO COM MAIS ENGRAXE","Yield -9"],"possuiParametrosMaquina":false},{"id":"volante-lione","artigo":"VOLANTE LIONE","tr":"33","cor":"PRETO","codigoCor":"311","cliente":"MÉXICO","yield":"-9.5","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO / AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 / FULÃO DE BATER / MOLISSA /CLASSIFICA / ESTUCO / LIXA / CLASSIFICA","caracteristicasFinais":"CLASSIFICA SEM MARCA CENTRAL ( MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA).MOLISSA VELOCIDADE 8MTS  PRESSÃO. 4,4,4,4.\n (CONTROLAR BEM A MACIEZ CRUST 3,2 / 3,8)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 1,2","1,3","FULÃO DE BATER","MOLISSA","CLASSIFICA","ESTUCO","LIXA","CLASSIFICA"],"pontosCriticos":["RETORSA / VÁCUO / AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 / FULÃO DE BATER / MOLISSA /CLASSIFICA / ESTUCO / LIXA / CLASSIFICA","CLASSIFICA SEM MARCA CENTRAL ( MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)","(CONTROLAR BEM A MACIEZ CRUST 3,2 / 3,8)"],"fornecedores":{"BEEF / LAMIPEL":"Aprovado"},"tags":["MÉXICO","TR 33","MARIO","Yield -9.5"],"possuiParametrosMaquina":false}],"fornecedoresCodigo":[{"codigo":"001","fornecedor":"SMX"},{"codigo":"002","fornecedor":"JANGADA"},{"codigo":"003","fornecedor":"APUCA"},{"codigo":"004","fornecedor":"NAUSSA"},{"codigo":"005","fornecedor":"CCO"},{"codigo":"006","fornecedor":"CENCOPROD"},{"codigo":"007","fornecedor":"NAT.BEEF / LAMIPEL"},{"codigo":"008","fornecedor":"TAYSON"},{"codigo":"009","fornecedor":"MAFRIG"},{"codigo":"010","fornecedor":"SCHINEIDER"},{"codigo":"011","fornecedor":"JBS"}],"fornecedoresMatriz":[{"artigo":"SELLA RAY","fornecedores":{"TYSON":"Aprovado","JBS":"Aprovado"}},{"artigo":"VOLANTE PREMIUM","fornecedores":{"BEEF / LAMIPEL":"Aprovado"}},{"artigo":"PALLADIO/ MERIDIAN","fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"}},{"artigo":"VOLANTE JULIA","fornecedores":{"SMX":"Aprovado","JANGADA":"Reprov.","APUCA":"Aprovado","NAUSSA":"Reprov.","CCO":"Aprovado","CENCOPROD":"Aprovado","BEEF / LAMIPEL":"Aprovado","TYSON":"Aprovado","SCHNEIDER":"Aprovado","JBS":"Aprovado","MINERVA":"EM TESTE\n1. 10 PELES AGUARDANDO \n2. 300 PELES AGUARDANDO"}},{"artigo":"VOLANTE STANDART","fornecedores":{"SMX":"Aprovado","NAUSSA":"Reprov.","TYSON":"Aprovado","JBS":"Aprovado"}},{"artigo":"MORITZ","fornecedores":{"SMX":"Aprovado","JBS":"Aprovado"}},{"artigo":"SELLA DK","fornecedores":{"SMX":"Aprovado","APUCA":"Aprovado","JBS":"Aprovado"}},{"artigo":"GINEVRA DK","fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"}},{"artigo":"GINEVRA","fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"}},{"artigo":"ARIANNA","fornecedores":{"SMX":"Aprovado","CENCOPROD":"Aprovado","JBS":"Aprovado"}},{"artigo":"AURORA","fornecedores":{"CENCOPROD":"Aprovado","JBS":"Aprovado"}},{"artigo":"ARES","fornecedores":{"JBS":"Aprovado"}}],"parametrosMaquinaArianna":[{"processo":"Retorsa","parametros":["Pressão 45","Velocidade do Rolo 26","1ª Passagens: Cabeça\n2ª Passagem : Barriga\n3ª Passagem  Barriga"],"observacao":""},{"processo":"Vácuo","parametros":["Temperatura 50ºC","Tempo de Processo : (300-350) Segundos","Controle de Umidade da pele: Máximo 35"],"observacao":""},{"processo":"THEMA","parametros":["Temperatura 42ºC","Tempo de Processo : (840) Minutos","Controle de Umidade da pele:  10","Obs: Não é necessário tempo de repouso para o processo seguinte (Molissa)"],"observacao":"Obs: Não é necessário tempo de repouso para o processo seguinte (Molissa)"},{"processo":"Molissa","parametros":["Pressão (7/7/7/7)","Velocidade do tapete 6mts","Maciez minimo: 3,5","Obs: Passar 2 peles por vez;\nObs: Analisar maciez depois do toogling, passar na Molissa novamente"],"observacao":"Obs: Passar 2 peles por vez;\nObs: Analisar maciez depois do toogling, passar na Molissa novamente"},{"processo":"Refila","parametros":["Refilar o couro somente o necessário"],"observacao":""},{"processo":"Estuco","parametros":["Utilizar Max: Base -  Estucar somente onde necessário"],"observacao":""},{"processo":"Lixa","parametros":["Lixa: 1ª Passagem 280-320","Velocidade Tapete 10Mts\nPressão (Zero)","Lixa: 2ª Passagem 400-500","Velocidade Tapete 10Mts\nPressão (Zero)"],"observacao":""},{"processo":"Toogling","parametros":["Temperatura 40ºC","Expanssão (5 CM)","Quantidade de Pinças ( 60- 70) \nDe aocordo com o tamanho da pele)","Obs: Atenção na Temperatura , para não exceder a 40ºC , para não impactar no resultado da Maciez"],"observacao":"Obs: Atenção na Temperatura , para não exceder a 40ºC , para não impactar no resultado da Maciez"}],"historicoRevisoes":[{"revisao":"5","data":"2020-09-04","conteudo":"ALTERAÇÃO ESPECIFICAÇÃO ESPESSURA E PROCESSO SECAGEM SELLA DK - (SEM DIVISORA /ESTUCO /LIXA), EM TESTE 10 PELES; AGUARDANDO, 300 PELES AGUARDANDO - (TR33/34/44). ARTIGO MORITZ PERMANECE NA LISTA DE CRUST RMG SEM RESTRIÇÃO DE TAMANHO (MÍNIMO 4MT²), ALTERAÇÃO NO FLUXO DE SECAGEM PARA: RETORSA/VÁCUO - TOOGLING 6CM- MOLISSA - REFILA - DIVISORA -LIXA. APROVAÇÃO VOLANTE JÚLIA - FORNECEDORNATIONAL BEEF / 10 PELES APROVADO - AGUARDANDO 300 PELES TESTE DE CONFIRMAÇÃO. INCLUSÃO DA META DE % YELD DE CADA ARTIGO;"},{"revisao":"6","data":"2020-10-29","conteudo":"ALTERADO O STATUS DE TESTES PARA VOLANTE JÚLIA NOS FORNECEDORES : SMX / SHINNEIDER / MAFRIG / TAYSON; ALTERAÇÃO DO % YELD VOLANTE JÚLIA DE -6,5 PARA-9. ALTERAÇÃO DO % YELD PALLADIO DE 0 PARA -2 ALTERAÇÃO ESPESSURA FINAL SELLA DK DE 11/12 PARA 12/13 (-)"},{"revisao":"7","data":"2021-03-02","conteudo":"1.ALTERADO CLASSIFICAÇÃO VOLANTE PREMIUM DE TR22 P/ TR34 E ACRESCENTADO OS CRITÉRIOS DE ACEITAÇÃO PARA MARCA DE FOGO; 2. ALTERADO META DE RENDIMENTO PALLADIO P/ -5%; 3. ALTERADO META DE RENDIMENTO VOLANTE JÚLIA P/ -9,5%; 4. ALTERADO META DE RENDIMENTO MORITZ PARA +2%"},{"revisao":"8","data":"2021-07-20","conteudo":"1.ALTERAÇÃO DA CLASSIFICAÇÃO TR34 PARA TR44 EM PALLADIO/MERIDIAN, MORITZ, SELLA DK E GINEVRA 2.ATUALIZAÇÃO DE TESTE DE FORNECEDOR CENCO/PROD"},{"revisao":"9","data":"2022-02-17","conteudo":"1. INCLUSÃO DO ARTIGO VOLANTE ROTO"},{"revisao":"10","data":"2022-03-01","conteudo":"1. INCLUSÃO DA ESPESSIFICAÇÃO DA REBAIXADEIRA DO ARTIGO MORITZ"},{"revisao":"11","data":"2022-07-18","conteudo":"1. INCLUSÃO DOS ARTIGOS ARIANNA E AURORA"},{"revisao":"12","data":"2023-02-06","conteudo":"1. REVISÃO GERAL, ONDE FOI INCLUÍDO OS ARTIGOS NOVOS ARES E PREMIUM (MULAN BRANDY)"},{"revisao":"13","data":"2023-04-24","conteudo":"1. INCLUÍDO OS ARTIGOS NOVOS ARIANNA - CRUST ITI"},{"revisao":"14","data":"2023-09-06","conteudo":"INCLUÍDO O ARTIGO NOVO ARIANNA - ICE"},{"revisao":"15","data":"2023-10-18","conteudo":"1. ALTERAÇÃO DO % YELD DO V.PREMIUM DE -9,0% PARA -9,5%. 2. ALTERAÇÃO DO % YELD DO PALLADIO DE -5,0% PARA -2,0%. 3. ALTERAÇÃO DO % YELD DO MERIDIAN DE -5,0% PARA -2,0%. 4. ALTERAÇÃO DO % YELD DO V. STANDART DE -9,0% PARA -9,5%. 5. ALTERAÇÃO DO % YELD DO V. ROTO DE -7,0% PARA -9,5%."},{"revisao":"16","data":"2023-11-03","conteudo":"INCLUSÃO DO ARTIGO CRUST IMPERIAL"},{"revisao":"17","data":"2024-01-15","conteudo":"1. INCLUSÃO DO ARTIGO VOLANTE JULIA - BACKEN BLACK 2. ARIANNA MULAN 3. ARIANNA FORGE"},{"revisao":"18","data":"2024-02-09","conteudo":"REVISÃO GERAL NO DOCUMENTO"},{"revisao":"19","data":"2024-05-02","conteudo":"INCLUSÃO DO ARTIGO VOLANTE LIONE"},{"revisao":"20","data":"2024-05-21","conteudo":"ALTERAÇÃO DOS PARAMETROS DE MACIEZ DO ARTIGO VOLANTE LIONE"},{"revisao":"21","data":"2024-07-26","conteudo":"INCLUSÃO DO ARTIGO F6. ALTERAÇÃO NA RECEITA DE RECURTIMENTO DOS ARTIGOS; ARIANNA WB BRASIL-ICE (MARIO COM MAIS ENGRAXE P/ ARIANNA). ARIANNA ÔMEGA LEATHER (MARIO COM MAIS ENGRAXE P/ ARIANNA). MULAN (MARIO COM MAIS ENGRAXE P/ ARIANNA). FORGE (MARIO COM MAIS ENGRAXE P/ ARIANNA)"},{"revisao":"22","data":"2024-10-07","conteudo":"ALTERAÇÃO NO FLUXO DO VOLANTE ROTO, INCLUSÃO DO PROCESSO DE ESTUCO. ATERAÇÃO NAS ESPECIFICAÇÕES DOS ARTIGOS: VOLANTE PREMIUM E VOLANTE LIONE RESTRIÇÃO DE MARCA DE FOGO."},{"revisao":"23","data":"2026-02-02","conteudo":"ALTERAÇÃO NO FLUXO DO ARIANNA, INCLUSÃO DO PROCESSO DE DIVISORA. ALTERAÇÃO NO CÓDIGO DO DOCUMENTO;BRM-MQ-SGQ-033 PARA BRM-MDL-SQ-SGI-033"}],"observacoesGerais":"OBSERVAÇÃO 01: Quando necessário, cada revisão deverá gerar um histórico, informando os lotes com as modificações e o período de cada alteração na documentação de embarque.\n\nOBSERVAÇÃO 02: Apartir da data de criação desse procedimento, cada embarque contendo informações do processo acima definido ou alterado deve ser informado para Itália , aos cuidados de  Marco Spagnolo.\n\nOBSERVAÇÃO 03: Esse documento não deve ser revisado, quando a alteração for especifica p/ 1 lote 1 teste no processo, porém toda a alteração realizada deverá ser comunicada pelo PCP.","observacoesArianna":"OBSERVAÇÃO 01: Quando necessário, cada revisão deverá gerar um histórico, informando os lotes com as modificações e o período de cada alteração na documentação de embarque.\n\nOBSERVAÇÃO 02: Apartir da data de criação desse procedimento, cada embarque contendo informações do processo acima definido ou alterado deve ser informado para Itália , aos cuidados de  Marco Spagnolo.\n\nOBSERVAÇÃO 03: Esse documento não deve ser revisado, quando a alteração for especifica p/ 1 lote 1 teste no processo, porém toda a alteração realizada deverá ser comunicada pelo PCP."};
-const STORE_KEY = "crustQualityUserStoreV24";
+   Objetivo: consulta + atualização operacional centralizada via GitHub API. */
+const BASE_DB = {"documento":{"titulo":"Especificações Técnica Crust Itália","codigo":"BRM-MDL-SQ-SGI-033","revisao":"23","origem":"Planilha matriz enviada","geradoEm":"2026-06-25 00:00","responsavelAplicacao":"Qualidade / Desenvolvimento de Produto e Processo","alertaConfidencialidade":"Dados técnicos industriais; avaliar publicação em repositório privado antes de compartilhar.","versaoAplicacao":"V26 GitHub Sync"},"kpis":{"artigos":19,"clientes":8,"trs":7,"receitas":3,"fornecedoresAprovados":34,"fornecedoresEmTeste":1,"ultimaRevisao":"23","dataUltimaRevisao":"2026-02-02"},"artigos":[{"id":"sella-ray-wb-brazil","artigo":"SELLA RAY WB BRAZIL","tr":"22","cor":"PRETO","codigoCor":"311","cliente":"RMG","yield":"-9","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA DIVIDIR 12/13","caracteristicasFinais":"(PIENO FIORE / (DIVIDIDO 12/13) CLASSIFICADO","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA DIVIDIR 12/13"],"pontosCriticos":["(PIENO FIORE / (DIVIDIDO 12/13) CLASSIFICADO"],"fornecedores":{"TYSON":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 22","MARIO","Yield -9"],"possuiParametrosMaquina":false},{"id":"volante-premium-wb-usa-hns-bbs-beef-tyson","artigo":"VOLANTE PREMIUM\n(WB USA HNS/BBS) (BEEF /TYSON)","tr":"33","cor":"(LOLITA/NIRVANA) PRETO","codigoCor":"311","cliente":"RMG / MÉXICO","yield":"-9","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCAR / LIXAR / CLASSIFICAR","caracteristicasFinais":"LIXADO 320/400 OU 500 / CLASSIFICA SEM MARCA CENTRAL\n(MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCAR","LIXAR","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCAR / LIXAR / CLASSIFICAR","LIXADO 320/400 OU 500 / CLASSIFICA SEM MARCA CENTRAL","(MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)"],"fornecedores":{"BEEF / LAMIPEL":"Aprovado"},"tags":["RMG / MÉXICO","TR 33","MARIO","Yield -9"],"possuiParametrosMaquina":false},{"id":"volante-premium-imperial","artigo":"VOLANTE PREMIUM (IMPERIAL)","tr":"33","cor":"NATURAL GEE\nCRYSATL GREY\nWARM HORIZON\nHOT CHOCOLATE\nSPACE GREY\nDARK AEGEAN\nDK SPACE GRAY","codigoCor":"7738\n7741\n03292\n03300\n7733\n7735\n7723","cliente":"MÉXICO","yield":"-9,5","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12,/13/ ESTUCAR / LIXAR / CLASSIFICAR","caracteristicasFinais":"LIXADO 320/400 OU 500 / CLASSIFICA SEM MARCA CENTRAL\n(MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12,","13","ESTUCAR","LIXAR","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12,/13/ ESTUCAR / LIXAR / CLASSIFICAR","LIXADO 320/400 OU 500 / CLASSIFICA SEM MARCA CENTRAL","(MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)"],"fornecedores":{"BEEF / LAMIPEL":"Aprovado"},"tags":["MÉXICO","TR 33","MARIO","Yield -9,5"],"possuiParametrosMaquina":false},{"id":"palladio-meridian","artigo":"PALLADIO/\nMERIDIAN","tr":"44","cor":"PRETO\n/CINZA\n/BEIGE","codigoCor":"311\n3705\n395\n5245","cliente":"AFX","yield":"-5","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"BAUCE / TOOGLING","caracteristicasFinais":"-","fluxoPassos":["BAUCE","TOOGLING"],"pontosCriticos":["BAUCE / TOOGLING"],"fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"},"tags":["AFX","TR 44","MARIO","Yield -5"],"possuiParametrosMaquina":false},{"id":"volante-julia-wb-brazil","artigo":"VOLANTE JULIA WB BRAZIL","tr":"33","cor":"PRETO/MARROM/CINZA/","codigoCor":"311/\n737\n309\n645\n7363\n8713","cliente":"AUTOLIV","yield":"-9.5","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / LIXAR / FULLÃO / TOOGING / CLASSIFICAR","caracteristicasFinais":"CLASSIFICADO (CLASS. A E B MONTADO NO MESMO PALLET)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","LIXAR","FULLÃO","TOOGING","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / LIXAR / FULLÃO / TOOGING / CLASSIFICAR","CLASSIFICADO (CLASS"],"fornecedores":{"SMX":"Aprovado","JANGADA":"Reprov.","APUCA":"Aprovado","NAUSSA":"Reprov.","CCO":"Aprovado","CENCOPROD":"Aprovado","BEEF / LAMIPEL":"Aprovado","TYSON":"Aprovado","SCHNEIDER":"Aprovado","JBS":"Aprovado","MINERVA":"EM TESTE\n1. 10 PELES AGUARDANDO \n2. 300 PELES AGUARDANDO"},"tags":["AUTOLIV","TR 33","MARIO","Yield -9.5"],"possuiParametrosMaquina":false},{"id":"volante-julia-wb-brazil","artigo":"VOLANTE JULIA WB BRAZIL","tr":"33","cor":"PRETO (BACKEN BLACK)","codigoCor":"07700","cliente":"MÉXICO BRUSACOSCO","yield":"-9.5","espessuraDivisora":"1,2 / 1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / LIXAR / FULÃO / TOOGING / CLASSIFICAR","caracteristicasFinais":"CLASSIFICADO (CLASS. A E B MONTADO NO MESMO PALLET)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","LIXAR","FULÃO","TOOGING","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / LIXAR / FULÃO / TOOGING / CLASSIFICAR","CLASSIFICADO (CLASS"],"fornecedores":{"SMX":"Aprovado","JANGADA":"Reprov.","APUCA":"Aprovado","NAUSSA":"Reprov.","CCO":"Aprovado","CENCOPROD":"Aprovado","BEEF / LAMIPEL":"Aprovado","TYSON":"Aprovado","SCHNEIDER":"Aprovado","JBS":"Aprovado","MINERVA":"EM TESTE\n1. 10 PELES AGUARDANDO \n2. 300 PELES AGUARDANDO"},"tags":["MÉXICO BRUSACOSCO","TR 33","MARIO","Yield -9.5"],"possuiParametrosMaquina":false},{"id":"volante-standart-wb-brazil","artigo":"VOLANTE STANDART WB BRAZIL","tr":"33","cor":"PRETO","codigoCor":"311","cliente":"RMG","yield":"-7","espessuraDivisora":"1,3 /1,4","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 13/14 / ESTUCAR / LIXAR / FULONAR / TOOGLING","caracteristicasFinais":"TOOGLING 8CM / CLASSIFICADO (CLASS. A E B MONTADO NO MESMO PALLET)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 13/14","ESTUCAR","LIXAR","FULONAR","TOOGLING"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 13/14 / ESTUCAR / LIXAR / FULONAR / TOOGLING","TOOGLING 8CM / CLASSIFICADO (CLASS"],"fornecedores":{"SMX":"Aprovado","NAUSSA":"Reprov.","TYSON":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 33","MARIO","Yield -7"],"possuiParametrosMaquina":false},{"id":"volante-roto-wb-brazil","artigo":"VOLANTE ROTO WB BRAZIL","tr":"33","cor":"PRETO","codigoCor":"311","cliente":"RMG","yield":"-7","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 /ESTUCA /  LIXAR / FULÃO / TOOGING / CLASSIFICAR","caracteristicasFinais":"TOOGLING 8CM / CLASSIFICADO (CLASS. A E B MONTADO NO MESMO PALLET)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCA","LIXAR","FULÃO","TOOGING","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 /ESTUCA /  LIXAR / FULÃO / TOOGING / CLASSIFICAR","TOOGLING 8CM / CLASSIFICADO (CLASS"],"fornecedores":{"BEEF / LAMIPEL":"Aprovado"},"tags":["RMG","TR 33","MARIO","Yield -7"],"possuiParametrosMaquina":false},{"id":"arianna-wb-brazil-ice","artigo":"ARIANNA WB BRAZIL - ICE","tr":"33/44\n(MONTE)","cor":"MARROM\nT-MORO\nBEIGE\nMARRONE CHIARO\nNERO(PRETO)\nGRIGIO (CINZA)\nROSSO(VERMELHO)\nROSSO ( FONDO CAMPEONE)","codigoCor":"3040\n3060\n2010\n3050\n311\n7010\n6010\n6020","cliente":"ICE","yield":"+2","espessuraDivisora":"1,1/1,2","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA /\nDIVIDIR 12/13/\nESTUCO / LIXA / TOOGLING / CLASSIFICAR","caracteristicasFinais":"EXPANSSÃO TOOGLING 6-8CM\nREBAIXADO WET BLUE 1,1 / 1,2\nMOLISSA VELOCIDADE 8MTS / 5,5,6,6 OU 6,6,7,7\nCONTROLAR BEM A MACIEZ ( MIN 3.5 )\nEMBALAGEM 300-320 PELES NO MÁXIMO POR PALLET\nRESTRIÇÃO TAMANHO MÁX 55FT²","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCO","LIXA","TOOGLING","CLASSIFICAR"],"pontosCriticos":["ESTUCO / LIXA / TOOGLING / CLASSIFICAR","EXPANSSÃO TOOGLING 6-8CM","CONTROLAR BEM A MACIEZ ( MIN 3","EMBALAGEM 300-320 PELES NO MÁXIMO POR PALLET","RESTRIÇÃO TAMANHO MÁX 55FT²"],"fornecedores":{"SMX":"Aprovado","CENCOPROD":"Aprovado","JBS":"Aprovado"},"tags":["ICE","TR 33/44\n(MONTE)","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"f6-wb-brazil-ice","artigo":"F6 WB BRAZIL - ICE","tr":"22","cor":"BEIGE\nMARRONE CHIARO\nNERO(PRETO)\nGRIGIO (CINZA)\nROSSO ( FONDO CAMPEONE)","codigoCor":"2010\n3050\n311\n7010\n6020","cliente":"ICE","yield":"+2","espessuraDivisora":"1,1/1,2","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA /ESTUCO / LIXA / TOOGLING / CLASSIFICAR","caracteristicasFinais":"EXPANSSÃO TOOGLING 6-8CM\nREBAIXADO WET BLUE 1,1 / 1,2\nMOLISSA VELOCIDADE 8MTS / 5,5,6,6 OU 6,6,7,7\nCONTROLAR BEM A MACIEZ ( MIN 3.5 )\nEMBALAGEM 300-320 PELES NO MÁXIMO POR PALLET\nRESTRIÇÃO TAMANHO MÁX 55FT²","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","ESTUCO","LIXA","TOOGLING","CLASSIFICAR"],"pontosCriticos":["RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA /ESTUCO / LIXA / TOOGLING / CLASSIFICAR","EXPANSSÃO TOOGLING 6-8CM","CONTROLAR BEM A MACIEZ ( MIN 3","EMBALAGEM 300-320 PELES NO MÁXIMO POR PALLET","RESTRIÇÃO TAMANHO MÁX 55FT²"],"fornecedores":{},"tags":["ICE","TR 22","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"arianna-omega-leather","artigo":"ARIANNA -ÔMEGA LEATHER","tr":"33","cor":"PRETO","codigoCor":"311","cliente":"ÔMEGA LEATHER","yield":"+2","espessuraDivisora":"1,1/1,2","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA / ESTUCO / LIXA / TOOGLING / CLASSIFICAR","caracteristicasFinais":"EXPANSSÃO TOOGLING 6-8CM\nREBAIXADO WET BLUE 1,2 / 1,3\nCONTROLAR BEM A MACIEZ CRUT 3,5 MIN\nRESTRIÇÃO DE ATÉ 3  MARCA DE FOGO","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","ESTUCO","LIXA","TOOGLING","CLASSIFICAR"],"pontosCriticos":["RETORSA/VÁCUO /  AÉREO/MOLISSA / REFILA / ESTUCO / LIXA / TOOGLING / CLASSIFICAR","EXPANSSÃO TOOGLING 6-8CM","CONTROLAR BEM A MACIEZ CRUT 3,5 MIN","RESTRIÇÃO DE ATÉ 3  MARCA DE FOGO"],"fornecedores":{"SMX":"Aprovado","CENCOPROD":"Aprovado","JBS":"Aprovado"},"tags":["ÔMEGA LEATHER","TR 33","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"mulan","artigo":"MULAN","tr":"TR22","cor":"NERO\nBRANDY","codigoCor":"311\n3010","cliente":"RMG","yield":"+2","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 /CLASSIFICAR","caracteristicasFinais":"PIENO FIORE\nREBAIXADO WET BLUE 1,1 / 1,2\nMOLISSA VELOCIDADE 8MTS / 5,5,6,6 OU 6,6,7,7\n(CONTROLAR BEM A MACIEZ  CRUST 3.5 MIN)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 1,2","1,3","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 /CLASSIFICAR","(CONTROLAR BEM A MACIEZ  CRUST 3"],"fornecedores":{},"tags":["RMG","TR TR22","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"forge","artigo":"FORGE","tr":"TR33","cor":"NERO\nGREY(CINZA)\nBEIGE","codigoCor":"311\n6770\n4255","cliente":"RMG","yield":"+2","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"ARIANNA","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 / CLASSIFICAR","caracteristicasFinais":"PIENO FIORE\nREBAIXADO WET BLUE 1,1 / 1,2\nMOLISSA VELOCIDADE 8MTS / 5,5,6,6 OU 6,6,7,7\n(CONTROLAR BEM A MACIEZ  CRUST 3.5 MIN)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 1,2","1,3","CLASSIFICAR"],"pontosCriticos":["RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 / CLASSIFICAR","(CONTROLAR BEM A MACIEZ  CRUST 3"],"fornecedores":{},"tags":["RMG","TR TR33","ARIANNA","Yield +2"],"possuiParametrosMaquina":true},{"id":"moritz-wb-brazil","artigo":"MORITZ WB BRAZIL","tr":"44","cor":"PRETO\nMARROM\nBLOND","codigoCor":"311\n3020\n5270","cliente":"RMG","yield":"+2","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA/VÁCUO / TOOGLING 5CM / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCO / LIXA","caracteristicasFinais":"RESTRIÇÃO DE TAMANHO (MÍNIMO 4MT²);\nREBAIXADO WET BLUE 1,2 / 1,3","fluxoPassos":["RETORSA","VÁCUO","TOOGLING 5CM","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCO","LIXA"],"pontosCriticos":["RETORSA/VÁCUO / TOOGLING 5CM / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCO / LIXA","RESTRIÇÃO DE TAMANHO (MÍNIMO 4MT²)"],"fornecedores":{"SMX":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 44","MARIO","Yield +2"],"possuiParametrosMaquina":false},{"id":"sella-dk-obsoleto","artigo":"SELLA DK (OBSOLETO)","tr":"44","cor":"PRETO","codigoCor":"","cliente":"","yield":"-9","espessuraDivisora":"1,2/1,3 (-)","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO / AEREO/ MOLISSA /REFILA","caracteristicasFinais":"Tamanho M² entre 4,0 e 5,1","fluxoPassos":["RETORSA","VÁCUO","AEREO","MOLISSA","REFILA"],"pontosCriticos":[],"fornecedores":{"SMX":"Aprovado","APUCA":"Aprovado","JBS":"Aprovado"},"tags":["TR 44","MARIO","Yield -9"],"possuiParametrosMaquina":false},{"id":"ginevra-dk","artigo":"GINEVRA DK","tr":"34","cor":"PRETO\nBEGE","codigoCor":"311\n2367","cliente":"RMG","yield":"","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO / ÁEREO / MOLISA / REFILA /  DIVISORA / ESTUCO / LIXA","caracteristicasFinais":"TAMANHO M² ENTRE 4,0 E 5,1","fluxoPassos":["RETORSA","VÁCUO","ÁEREO","MOLISA","REFILA","DIVISORA","ESTUCO","LIXA"],"pontosCriticos":["RETORSA / VÁCUO / ÁEREO / MOLISA / REFILA /  DIVISORA / ESTUCO / LIXA"],"fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 34","MARIO"],"possuiParametrosMaquina":false},{"id":"ginevra-wb-brazil","artigo":"GINEVRA WB BRAZIL","tr":"44","cor":"PRETO","codigoCor":"311","cliente":"RMG","yield":"-9","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO / AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCAR / LIXAR","caracteristicasFinais":"METRAGEM MÍNIMA M² 4,0\nDIVIDIDO /ESTUCO/ LIXADO","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 12/13","ESTUCAR","LIXAR"],"pontosCriticos":["RETORSA / VÁCUO / AÉREO / MOLISSA / REFILA / DIVIDIR 12/13 / ESTUCAR / LIXAR","METRAGEM MÍNIMA M² 4,0","DIVIDIDO /ESTUCO/ LIXADO"],"fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"},"tags":["RMG","TR 44","MARIO","Yield -9"],"possuiParametrosMaquina":false},{"id":"ares-wb-brazil-jbs","artigo":"ARES (WB BRAZIL/JBS )","tr":"33","cor":"CINNAMON BROWN","codigoCor":"3030","cliente":"RMG","yield":"-9","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO COM MAIS ENGRAXE","fluxoSecagem":"RETORSA / VÁCUO /  AÉREO / MOLISSA / REFILAR\nDIVIDIR 12/13","caracteristicasFinais":"PIENO FIORE / (DIVIDIDO 12/13) CLASSIFICADO","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILAR","DIVIDIR 12/13"],"pontosCriticos":["PIENO FIORE / (DIVIDIDO 12/13) CLASSIFICADO"],"fornecedores":{"JBS":"Aprovado"},"tags":["RMG","TR 33","MARIO COM MAIS ENGRAXE","Yield -9"],"possuiParametrosMaquina":false},{"id":"volante-lione","artigo":"VOLANTE LIONE","tr":"33","cor":"PRETO","codigoCor":"311","cliente":"MÉXICO","yield":"-9.5","espessuraDivisora":"1,2/1,3","receitaRecurtimento":"MARIO","fluxoSecagem":"RETORSA / VÁCUO / AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 / FULÃO DE BATER / MOLISSA /CLASSIFICA / ESTUCO / LIXA / CLASSIFICA","caracteristicasFinais":"CLASSIFICA SEM MARCA CENTRAL ( MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA).MOLISSA VELOCIDADE 8MTS  PRESSÃO. 4,4,4,4.\n (CONTROLAR BEM A MACIEZ CRUST 3,2 / 3,8)","fluxoPassos":["RETORSA","VÁCUO","AÉREO","MOLISSA","REFILA","DIVIDIR 1,2","1,3","FULÃO DE BATER","MOLISSA","CLASSIFICA","ESTUCO","LIXA","CLASSIFICA"],"pontosCriticos":["RETORSA / VÁCUO / AÉREO / MOLISSA / REFILA / DIVIDIR 1,2/1,3 / FULÃO DE BATER / MOLISSA /CLASSIFICA / ESTUCO / LIXA / CLASSIFICA","CLASSIFICA SEM MARCA CENTRAL ( MÁXIMO 1 MARCA DE FOGO PEQUENA NA ÁREA DA CULATRA)","(CONTROLAR BEM A MACIEZ CRUST 3,2 / 3,8)"],"fornecedores":{"BEEF / LAMIPEL":"Aprovado"},"tags":["MÉXICO","TR 33","MARIO","Yield -9.5"],"possuiParametrosMaquina":false}],"fornecedoresCodigo":[{"codigo":"001","fornecedor":"SMX"},{"codigo":"002","fornecedor":"JANGADA"},{"codigo":"003","fornecedor":"APUCA"},{"codigo":"004","fornecedor":"NAUSSA"},{"codigo":"005","fornecedor":"CCO"},{"codigo":"006","fornecedor":"CENCOPROD"},{"codigo":"007","fornecedor":"NAT.BEEF / LAMIPEL"},{"codigo":"008","fornecedor":"TAYSON"},{"codigo":"009","fornecedor":"MAFRIG"},{"codigo":"010","fornecedor":"SCHINEIDER"},{"codigo":"011","fornecedor":"JBS"}],"fornecedoresMatriz":[{"artigo":"SELLA RAY","fornecedores":{"TYSON":"Aprovado","JBS":"Aprovado"}},{"artigo":"VOLANTE PREMIUM","fornecedores":{"BEEF / LAMIPEL":"Aprovado"}},{"artigo":"PALLADIO/ MERIDIAN","fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"}},{"artigo":"VOLANTE JULIA","fornecedores":{"SMX":"Aprovado","JANGADA":"Reprov.","APUCA":"Aprovado","NAUSSA":"Reprov.","CCO":"Aprovado","CENCOPROD":"Aprovado","BEEF / LAMIPEL":"Aprovado","TYSON":"Aprovado","SCHNEIDER":"Aprovado","JBS":"Aprovado","MINERVA":"EM TESTE\n1. 10 PELES AGUARDANDO \n2. 300 PELES AGUARDANDO"}},{"artigo":"VOLANTE STANDART","fornecedores":{"SMX":"Aprovado","NAUSSA":"Reprov.","TYSON":"Aprovado","JBS":"Aprovado"}},{"artigo":"MORITZ","fornecedores":{"SMX":"Aprovado","JBS":"Aprovado"}},{"artigo":"SELLA DK","fornecedores":{"SMX":"Aprovado","APUCA":"Aprovado","JBS":"Aprovado"}},{"artigo":"GINEVRA DK","fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"}},{"artigo":"GINEVRA","fornecedores":{"SMX":"Aprovado","CCO":"Aprovado","JBS":"Aprovado"}},{"artigo":"ARIANNA","fornecedores":{"SMX":"Aprovado","CENCOPROD":"Aprovado","JBS":"Aprovado"}},{"artigo":"AURORA","fornecedores":{"CENCOPROD":"Aprovado","JBS":"Aprovado"}},{"artigo":"ARES","fornecedores":{"JBS":"Aprovado"}}],"parametrosMaquinaArianna":[{"processo":"Retorsa","parametros":["Pressão 45","Velocidade do Rolo 26","1ª Passagens: Cabeça\n2ª Passagem : Barriga\n3ª Passagem  Barriga"],"observacao":""},{"processo":"Vácuo","parametros":["Temperatura 50ºC","Tempo de Processo : (300-350) Segundos","Controle de Umidade da pele: Máximo 35"],"observacao":""},{"processo":"THEMA","parametros":["Temperatura 42ºC","Tempo de Processo : (840) Minutos","Controle de Umidade da pele:  10","Obs: Não é necessário tempo de repouso para o processo seguinte (Molissa)"],"observacao":"Obs: Não é necessário tempo de repouso para o processo seguinte (Molissa)"},{"processo":"Molissa","parametros":["Pressão (7/7/7/7)","Velocidade do tapete 6mts","Maciez minimo: 3,5","Obs: Passar 2 peles por vez;\nObs: Analisar maciez depois do toogling, passar na Molissa novamente"],"observacao":"Obs: Passar 2 peles por vez;\nObs: Analisar maciez depois do toogling, passar na Molissa novamente"},{"processo":"Refila","parametros":["Refilar o couro somente o necessário"],"observacao":""},{"processo":"Estuco","parametros":["Utilizar Max: Base -  Estucar somente onde necessário"],"observacao":""},{"processo":"Lixa","parametros":["Lixa: 1ª Passagem 280-320","Velocidade Tapete 10Mts\nPressão (Zero)","Lixa: 2ª Passagem 400-500","Velocidade Tapete 10Mts\nPressão (Zero)"],"observacao":""},{"processo":"Toogling","parametros":["Temperatura 40ºC","Expanssão (5 CM)","Quantidade de Pinças ( 60- 70) \nDe aocordo com o tamanho da pele)","Obs: Atenção na Temperatura , para não exceder a 40ºC , para não impactar no resultado da Maciez"],"observacao":"Obs: Atenção na Temperatura , para não exceder a 40ºC , para não impactar no resultado da Maciez"}],"historicoRevisoes":[{"revisao":"5","data":"2020-09-04","conteudo":"ALTERAÇÃO ESPECIFICAÇÃO ESPESSURA E PROCESSO SECAGEM SELLA DK - (SEM DIVISORA /ESTUCO /LIXA), EM TESTE 10 PELES; AGUARDANDO, 300 PELES AGUARDANDO - (TR33/34/44). ARTIGO MORITZ PERMANECE NA LISTA DE CRUST RMG SEM RESTRIÇÃO DE TAMANHO (MÍNIMO 4MT²), ALTERAÇÃO NO FLUXO DE SECAGEM PARA: RETORSA/VÁCUO - TOOGLING 6CM- MOLISSA - REFILA - DIVISORA -LIXA. APROVAÇÃO VOLANTE JÚLIA - FORNECEDORNATIONAL BEEF / 10 PELES APROVADO - AGUARDANDO 300 PELES TESTE DE CONFIRMAÇÃO. INCLUSÃO DA META DE % YELD DE CADA ARTIGO;"},{"revisao":"6","data":"2020-10-29","conteudo":"ALTERADO O STATUS DE TESTES PARA VOLANTE JÚLIA NOS FORNECEDORES : SMX / SHINNEIDER / MAFRIG / TAYSON; ALTERAÇÃO DO % YELD VOLANTE JÚLIA DE -6,5 PARA-9. ALTERAÇÃO DO % YELD PALLADIO DE 0 PARA -2 ALTERAÇÃO ESPESSURA FINAL SELLA DK DE 11/12 PARA 12/13 (-)"},{"revisao":"7","data":"2021-03-02","conteudo":"1.ALTERADO CLASSIFICAÇÃO VOLANTE PREMIUM DE TR22 P/ TR34 E ACRESCENTADO OS CRITÉRIOS DE ACEITAÇÃO PARA MARCA DE FOGO; 2. ALTERADO META DE RENDIMENTO PALLADIO P/ -5%; 3. ALTERADO META DE RENDIMENTO VOLANTE JÚLIA P/ -9,5%; 4. ALTERADO META DE RENDIMENTO MORITZ PARA +2%"},{"revisao":"8","data":"2021-07-20","conteudo":"1.ALTERAÇÃO DA CLASSIFICAÇÃO TR34 PARA TR44 EM PALLADIO/MERIDIAN, MORITZ, SELLA DK E GINEVRA 2.ATUALIZAÇÃO DE TESTE DE FORNECEDOR CENCO/PROD"},{"revisao":"9","data":"2022-02-17","conteudo":"1. INCLUSÃO DO ARTIGO VOLANTE ROTO"},{"revisao":"10","data":"2022-03-01","conteudo":"1. INCLUSÃO DA ESPESSIFICAÇÃO DA REBAIXADEIRA DO ARTIGO MORITZ"},{"revisao":"11","data":"2022-07-18","conteudo":"1. INCLUSÃO DOS ARTIGOS ARIANNA E AURORA"},{"revisao":"12","data":"2023-02-06","conteudo":"1. REVISÃO GERAL, ONDE FOI INCLUÍDO OS ARTIGOS NOVOS ARES E PREMIUM (MULAN BRANDY)"},{"revisao":"13","data":"2023-04-24","conteudo":"1. INCLUÍDO OS ARTIGOS NOVOS ARIANNA - CRUST ITI"},{"revisao":"14","data":"2023-09-06","conteudo":"INCLUÍDO O ARTIGO NOVO ARIANNA - ICE"},{"revisao":"15","data":"2023-10-18","conteudo":"1. ALTERAÇÃO DO % YELD DO V.PREMIUM DE -9,0% PARA -9,5%. 2. ALTERAÇÃO DO % YELD DO PALLADIO DE -5,0% PARA -2,0%. 3. ALTERAÇÃO DO % YELD DO MERIDIAN DE -5,0% PARA -2,0%. 4. ALTERAÇÃO DO % YELD DO V. STANDART DE -9,0% PARA -9,5%. 5. ALTERAÇÃO DO % YELD DO V. ROTO DE -7,0% PARA -9,5%."},{"revisao":"16","data":"2023-11-03","conteudo":"INCLUSÃO DO ARTIGO CRUST IMPERIAL"},{"revisao":"17","data":"2024-01-15","conteudo":"1. INCLUSÃO DO ARTIGO VOLANTE JULIA - BACKEN BLACK 2. ARIANNA MULAN 3. ARIANNA FORGE"},{"revisao":"18","data":"2024-02-09","conteudo":"REVISÃO GERAL NO DOCUMENTO"},{"revisao":"19","data":"2024-05-02","conteudo":"INCLUSÃO DO ARTIGO VOLANTE LIONE"},{"revisao":"20","data":"2024-05-21","conteudo":"ALTERAÇÃO DOS PARAMETROS DE MACIEZ DO ARTIGO VOLANTE LIONE"},{"revisao":"21","data":"2024-07-26","conteudo":"INCLUSÃO DO ARTIGO F6. ALTERAÇÃO NA RECEITA DE RECURTIMENTO DOS ARTIGOS; ARIANNA WB BRASIL-ICE (MARIO COM MAIS ENGRAXE P/ ARIANNA). ARIANNA ÔMEGA LEATHER (MARIO COM MAIS ENGRAXE P/ ARIANNA). MULAN (MARIO COM MAIS ENGRAXE P/ ARIANNA). FORGE (MARIO COM MAIS ENGRAXE P/ ARIANNA)"},{"revisao":"22","data":"2024-10-07","conteudo":"ALTERAÇÃO NO FLUXO DO VOLANTE ROTO, INCLUSÃO DO PROCESSO DE ESTUCO. ATERAÇÃO NAS ESPECIFICAÇÕES DOS ARTIGOS: VOLANTE PREMIUM E VOLANTE LIONE RESTRIÇÃO DE MARCA DE FOGO."},{"revisao":"23","data":"2026-02-02","conteudo":"ALTERAÇÃO NO FLUXO DO ARIANNA, INCLUSÃO DO PROCESSO DE DIVISORA. ALTERAÇÃO NO CÓDIGO DO DOCUMENTO;BRM-MQ-SGQ-033 PARA BRM-MDL-SQ-SGI-033"}],"observacoesGerais":"OBSERVAÇÃO 01: Quando necessário, cada revisão deverá gerar um histórico, informando os lotes com as modificações e o período de cada alteração na documentação de embarque.\n\nOBSERVAÇÃO 02: Apartir da data de criação desse procedimento, cada embarque contendo informações do processo acima definido ou alterado deve ser informado para Itália , aos cuidados de  Marco Spagnolo.\n\nOBSERVAÇÃO 03: Esse documento não deve ser revisado, quando a alteração for especifica p/ 1 lote 1 teste no processo, porém toda a alteração realizada deverá ser comunicada pelo PCP.","observacoesArianna":"OBSERVAÇÃO 01: Quando necessário, cada revisão deverá gerar um histórico, informando os lotes com as modificações e o período de cada alteração na documentação de embarque.\n\nOBSERVAÇÃO 02: Apartir da data de criação desse procedimento, cada embarque contendo informações do processo acima definido ou alterado deve ser informado para Itália , aos cuidados de  Marco Spagnolo.\n\nOBSERVAÇÃO 03: Esse documento não deve ser revisado, quando a alteração for especifica p/ 1 lote 1 teste no processo, porém toda a alteração realizada deverá ser comunicada pelo PCP."};
+const STORE_KEY = "crustQualityUserStoreV24"; // preserva ajustes locais já existentes
 const SELECTED_KEY = "crustSelectedArticleV24";
+const SYNC_CONFIG_KEY = "crustGitHubSyncConfigV26";
+const DEFAULT_SYNC_CONFIG = {
+  owner: "jaimeleite2012-sketch",
+  repo: "Especifica-Crust-",
+  branch: "main",
+  path: "data/crust-sync-store.json",
+  displayName: "Qualidade",
+  autoPull: true,
+  token: ""
+};
 
 const $ = (id) => document.getElementById(id);
 const esc = (v) => String(v ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
@@ -16,6 +26,11 @@ let activeFilter = null;
 let selectedId = localStorage.getItem(SELECTED_KEY) || null;
 let editMode = "edit";
 let userStore = loadStore();
+let syncConfig = loadSyncConfig();
+let remoteSha = null;
+let remoteUpdatedAt = null;
+let syncBusy = false;
+let syncMessage = "Central GitHub: aguardando";
 let DB = buildRuntimeDB();
 if (!selectedId || !DB.artigos.some(a => a.id === selectedId)) selectedId = DB.artigos[0]?.id || null;
 
@@ -38,6 +53,248 @@ function saveStore(reason) {
   DB = buildRuntimeDB();
   if (!DB.artigos.some(a => a.id === selectedId)) selectedId = DB.artigos[0]?.id || null;
   refreshAll();
+}
+
+
+function loadSyncConfig() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(SYNC_CONFIG_KEY) || "null");
+    return { ...DEFAULT_SYNC_CONFIG, ...(parsed || {}) };
+  } catch {
+    return { ...DEFAULT_SYNC_CONFIG };
+  }
+}
+
+function saveSyncConfig(next) {
+  syncConfig = { ...syncConfig, ...next };
+  localStorage.setItem(SYNC_CONFIG_KEY, JSON.stringify(syncConfig));
+  refreshSyncStatus("Configuração GitHub salva neste aparelho");
+}
+
+function emptyStore(version = 26) {
+  return { version, updatedAt: null, updatedBy: null, edits: {}, created: [], history: [] };
+}
+
+function safeStore(store) {
+  const base = emptyStore(26);
+  if (!store || typeof store !== "object") return base;
+  return {
+    ...base,
+    ...store,
+    edits: store.edits && typeof store.edits === "object" ? store.edits : {},
+    created: Array.isArray(store.created) ? store.created : [],
+    history: Array.isArray(store.history) ? store.history : []
+  };
+}
+
+function mergeStores(remote, local, prefer = "remote") {
+  remote = safeStore(remote);
+  local = safeStore(local);
+  const edits = prefer === "local" ? { ...remote.edits, ...local.edits } : { ...local.edits, ...remote.edits };
+  const createdMap = new Map();
+  const first = prefer === "local" ? remote.created : local.created;
+  const second = prefer === "local" ? local.created : remote.created;
+  [...first, ...second].forEach(item => {
+    if (!item) return;
+    const article = normalizeArticle(item, item.origem || "Cadastro GitHub");
+    createdMap.set(article.id, article);
+  });
+  const seen = new Set();
+  const history = [...(local.history || []), ...(remote.history || [])].filter(h => {
+    const key = `${h.when || ""}|${h.text || ""}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  }).slice(0, 200);
+  return {
+    ...emptyStore(26),
+    ...remote,
+    ...local,
+    version: 26,
+    updatedAt: new Date().toISOString(),
+    updatedBy: syncConfig.displayName || "Usuário autorizado",
+    edits,
+    created: [...createdMap.values()],
+    history
+  };
+}
+
+function encodeBase64Unicode(text) {
+  return btoa(unescape(encodeURIComponent(text)));
+}
+
+function decodeBase64Unicode(text) {
+  return decodeURIComponent(escape(atob(String(text || "").replace(/\n/g, ""))));
+}
+
+function githubApiUrl() {
+  const owner = encodeURIComponent(syncConfig.owner.trim());
+  const repo = encodeURIComponent(syncConfig.repo.trim());
+  const path = syncConfig.path.split("/").map(encodeURIComponent).join("/");
+  return `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+}
+
+function githubHeaders() {
+  const headers = {
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28"
+  };
+  if (syncConfig.token) headers.Authorization = `Bearer ${syncConfig.token}`;
+  return headers;
+}
+
+async function fetchRemoteEnvelope() {
+  const url = `${githubApiUrl()}?ref=${encodeURIComponent(syncConfig.branch || "main")}&t=${Date.now()}`;
+  const res = await fetch(url, { headers: githubHeaders(), cache: "no-store" });
+  if (res.status === 404) return { exists: false, sha: null, store: emptyStore(26) };
+  if (!res.ok) throw new Error(`GitHub GET ${res.status}`);
+  const payload = await res.json();
+  const decoded = decodeBase64Unicode(payload.content || "e30=");
+  const store = safeStore(JSON.parse(decoded || "{}"));
+  remoteSha = payload.sha || null;
+  remoteUpdatedAt = store.updatedAt || null;
+  return { exists: true, sha: remoteSha, store };
+}
+
+async function loadCentralStore(options = {}) {
+  if (syncBusy) return;
+  syncBusy = true;
+  refreshSyncStatus("Baixando banco central...");
+  try {
+    const envelope = await fetchRemoteEnvelope();
+    const merged = mergeStores(envelope.store, userStore, "remote");
+    userStore = merged;
+    localStorage.setItem(STORE_KEY, JSON.stringify(userStore));
+    DB = buildRuntimeDB();
+    refreshAll();
+    refreshSyncStatus(envelope.exists ? `Banco central carregado · ${userStore.history.length} registros de histórico` : "Banco central ainda não existe; será criado no primeiro envio");
+    if (!options.silent) toast("Dados centrais carregados do GitHub");
+  } catch (err) {
+    refreshSyncStatus(`Falha ao baixar central: ${err.message}`);
+    if (!options.silent) alert("Não consegui baixar o banco central. Verifique internet, repositório e token, se o repositório for privado.");
+  } finally {
+    syncBusy = false;
+  }
+}
+
+async function pushCentralStore(reason = "Atualização operacional") {
+  if (!syncConfig.token) {
+    refreshSyncStatus("Salvo localmente. Configure um token GitHub para gravar para todos.");
+    toast("Salvo localmente. Falta configurar GitHub Sync.");
+    return;
+  }
+  if (syncBusy) return;
+  syncBusy = true;
+  refreshSyncStatus("Enviando atualização para o GitHub...");
+  try {
+    const envelope = await fetchRemoteEnvelope();
+    const merged = mergeStores(envelope.store, userStore, "local");
+    const historyText = `${reason} · por ${syncConfig.displayName || "usuário autorizado"}`;
+    merged.updatedAt = new Date().toISOString();
+    merged.updatedBy = syncConfig.displayName || "Usuário autorizado";
+    merged.history.unshift({ when: merged.updatedAt, text: historyText });
+    merged.history = merged.history.slice(0, 200);
+
+    const body = {
+      message: `Atualiza especificações Crust - ${todayStamp()}`,
+      content: encodeBase64Unicode(JSON.stringify(merged, null, 2)),
+      branch: syncConfig.branch || "main",
+      committer: {
+        name: syncConfig.displayName || "Dashboard Crust",
+        email: "dashboard-crust@users.noreply.github.com"
+      }
+    };
+    if (envelope.sha) body.sha = envelope.sha;
+
+    const res = await fetch(githubApiUrl(), {
+      method: "PUT",
+      headers: { ...githubHeaders(), "Content-Type": "application/json" },
+      body: JSON.stringify(body)
+    });
+    if (!res.ok) {
+      const txt = await res.text().catch(() => "");
+      throw new Error(`GitHub PUT ${res.status} ${txt.slice(0, 120)}`);
+    }
+    const response = await res.json();
+    remoteSha = response.content?.sha || remoteSha;
+    userStore = merged;
+    localStorage.setItem(STORE_KEY, JSON.stringify(userStore));
+    DB = buildRuntimeDB();
+    refreshAll();
+    refreshSyncStatus(`Sincronizado para todos · ${todayStamp()}`);
+    toast("Alteração enviada para todos via GitHub");
+  } catch (err) {
+    refreshSyncStatus(`Falha ao enviar: ${err.message}`);
+    alert("A alteração ficou salva neste aparelho, mas não foi enviada ao GitHub. Verifique token, permissão Contents: Read and write, internet e conflito de arquivo.");
+  } finally {
+    syncBusy = false;
+  }
+}
+
+function refreshSyncStatus(message) {
+  if (message) syncMessage = message;
+  const pill = $("syncStatusPill");
+  if (pill) pill.textContent = syncMessage;
+  const line = $("syncStatusLine");
+  if (line) line.textContent = `${syncMessage}${remoteUpdatedAt ? " · remoto: " + new Date(remoteUpdatedAt).toLocaleString("pt-BR") : ""}`;
+}
+
+function syncPanelHtml() {
+  const tokenInfo = syncConfig.token ? "Token salvo neste aparelho" : "Token não configurado";
+  return `
+    <div class="note-card sync-card">
+      <p class="eyebrow">Banco central GitHub API</p>
+      <h3>Alterou uma vez, atualiza para todos</h3>
+      <p class="mini" id="syncStatusLine">${esc(syncMessage)}</p>
+      <div class="form-grid">
+        ${field("Owner GitHub", "ghOwner", syncConfig.owner)}
+        ${field("Repositório", "ghRepo", syncConfig.repo)}
+        ${field("Branch", "ghBranch", syncConfig.branch)}
+        ${field("Arquivo do banco central", "ghPath", syncConfig.path)}
+        ${field("Seu nome no histórico", "ghDisplayName", syncConfig.displayName)}
+        <label class="form-field full"><span>Token GitHub fine-grained — ${esc(tokenInfo)}</span><input id="ghToken" type="password" autocomplete="off" placeholder="Cole aqui somente no seu aparelho autorizado"></label>
+      </div>
+      <div class="form-actions full">
+        <button class="primary-btn" type="button" id="saveSyncConfigBtn">Salvar conexão</button>
+        <button class="ghost-btn" type="button" id="pullCentralBtn">Baixar atualização central</button>
+        <button class="ghost-btn" type="button" id="pushCentralBtn">Enviar meus ajustes para todos</button>
+        <button class="danger-btn" type="button" id="forgetTokenBtn">Esquecer token deste aparelho</button>
+      </div>
+      <p class="mini">O token não vai para o GitHub Pages nem para o repositório; fica salvo somente neste navegador. Usuários sem token podem consultar. Usuários autorizados colam o token para salvar alterações centrais.</p>
+    </div>`;
+}
+
+function attachSyncPanelHandlers() {
+  const saveBtn = $("saveSyncConfigBtn");
+  if (!saveBtn) return;
+  saveBtn.addEventListener("click", () => {
+    const token = $("ghToken").value.trim();
+    saveSyncConfig({
+      owner: $("ghOwner").value.trim() || DEFAULT_SYNC_CONFIG.owner,
+      repo: $("ghRepo").value.trim() || DEFAULT_SYNC_CONFIG.repo,
+      branch: $("ghBranch").value.trim() || "main",
+      path: $("ghPath").value.trim() || DEFAULT_SYNC_CONFIG.path,
+      displayName: $("ghDisplayName").value.trim() || "Qualidade",
+      token: token || syncConfig.token || ""
+    });
+    $("ghToken").value = "";
+    loadCentralStore({ silent: false });
+  });
+  $("pullCentralBtn").addEventListener("click", () => loadCentralStore({ silent: false }));
+  $("pushCentralBtn").addEventListener("click", () => pushCentralStore("Envio manual de ajustes"));
+  $("forgetTokenBtn").addEventListener("click", () => {
+    saveSyncConfig({ token: "" });
+    toast("Token removido deste aparelho");
+    renderEditPanel();
+  });
+}
+
+async function syncAfterOperationalSave(reason) {
+  if (syncConfig.token) {
+    await pushCentralStore(reason);
+  } else {
+    refreshSyncStatus("Alteração salva só neste aparelho. Configure GitHub Sync para gravar para todos.");
+  }
 }
 
 function uniqueBaseArticles(articles) {
@@ -501,10 +758,11 @@ function renderEditPanel() {
     </form>
 
     <div class="note-card">
-      <p class="eyebrow">Regra de segurança dos dados</p>
-      <h3>Como não perder as alterações</h3>
-      <p>As edições ficam gravadas no navegador do celular. Ao atualizar a base oficial no GitHub, estes ajustes continuam aplicados enquanto você usar a mesma URL e o mesmo navegador. Para segurança, exporte o backup JSON periodicamente e guarde no WhatsApp, e-mail ou pasta corporativa.</p>
+      <p class="eyebrow">Regra operacional V26</p>
+      <h3>Banco central para todos os usuários</h3>
+      <p>As alterações continuam ficando temporariamente protegidas neste aparelho, mas agora podem ser enviadas ao banco central do GitHub. Ao salvar com token autorizado, a alteração passa a aparecer para todos que abrirem o dashboard.</p>
     </div>
+    ${syncPanelHtml()}
   `;
   $("startNewBtn").addEventListener("click", () => { editMode = "new"; renderEditPanel(); });
   $("loadSelectedBtn").addEventListener("click", () => { editMode = "edit"; renderEditPanel(); });
@@ -514,6 +772,7 @@ function renderEditPanel() {
   $("exportBackupBtn").addEventListener("click", exportBackup);
   $("importBackupInput").addEventListener("change", importBackup);
   $("clearLocalBtn").addEventListener("click", clearLocalChanges);
+  attachSyncPanelHandlers();
 }
 
 function readFormArticle() {
@@ -559,7 +818,8 @@ function handleFormSave(e) {
   saveStore(`${article.obsoleto ? "Marcado como obsoleto" : "Salvo/atualizado"}: ${article.artigo}`);
   editMode = "edit";
   switchView("ficha");
-  toast("Alteração salva no celular");
+  toast(syncConfig.token ? "Salvo; enviando para todos..." : "Alteração salva no celular");
+  syncAfterOperationalSave(`${article.obsoleto ? "Marcado como obsoleto" : "Salvo/atualizado"}: ${article.artigo}`);
 }
 
 function toggleObsolete(id) {
@@ -573,6 +833,7 @@ function toggleObsolete(id) {
   }
   saveStore(`${updated.obsoleto ? "Marcado como obsoleto" : "Reativado"}: ${updated.artigo}`);
   toast(updated.obsoleto ? "Artigo obsoleto: card ficará vermelho" : "Artigo reativado");
+  syncAfterOperationalSave(`${updated.obsoleto ? "Marcado como obsoleto" : "Reativado"}: ${updated.artigo}`);
 }
 
 function exportBackup() {
@@ -603,7 +864,7 @@ function importBackup(e) {
       const payload = JSON.parse(reader.result);
       const incoming = payload.store || payload;
       if (!incoming || typeof incoming !== "object") throw new Error("Arquivo inválido");
-      userStore = { version: 24, updatedAt: new Date().toISOString(), edits: incoming.edits || {}, created: incoming.created || [], history: incoming.history || [] };
+      userStore = { version: 26, updatedAt: new Date().toISOString(), edits: incoming.edits || {}, created: incoming.created || [], history: incoming.history || [] };
       saveStore("Backup de ajustes importado");
       toast("Backup importado com sucesso");
     } catch (err) {
@@ -616,7 +877,7 @@ function importBackup(e) {
 function clearLocalChanges() {
   const ok = confirm("Tem certeza que deseja apagar TODOS os ajustes locais deste celular? A matriz oficial permanecerá, mas edições e novos cadastros locais serão removidos.");
   if (!ok) return;
-  userStore = { version: 24, updatedAt: null, edits: {}, created: [], history: [] };
+  userStore = { version: 26, updatedAt: null, updatedBy: null, edits: {}, created: [], history: [] };
   localStorage.setItem(STORE_KEY, JSON.stringify(userStore));
   DB = buildRuntimeDB();
   selectedId = DB.artigos[0]?.id || null;
@@ -642,9 +903,10 @@ function renderAllDetails(flash = false) {
 }
 
 function refreshAll() {
-  $("docMeta").textContent = `${DB.documento.codigo} · Rev.${DB.documento.revisao} · última revisão ${DB.kpis.dataUltimaRevisao || "não informada"} · ${localChangeCount()} ajustes locais`;
+  $("docMeta").textContent = `${DB.documento.codigo} · Rev.${DB.documento.revisao} · última revisão ${DB.kpis.dataUltimaRevisao || "não informada"} · ${localChangeCount()} ajustes · ${syncConfig.token ? "GitHub Sync ativo" : "consulta central"}`;
   $("heroRev").textContent = DB.documento.revisao;
-  $("localChangesPill").textContent = `${localChangeCount()} ajustes locais`;
+  $("localChangesPill").textContent = `${localChangeCount()} ajustes`;
+  refreshSyncStatus();
   renderKpis();
   renderFilters();
   renderArticles();
@@ -664,6 +926,8 @@ function init() {
   $("newArticleTop").addEventListener("click", () => { editMode = "new"; switchView("cadastros"); });
   $("editSelectedTop").addEventListener("click", () => { editMode = "edit"; switchView("cadastros"); });
   $("exportBackupTop").addEventListener("click", exportBackup);
+  const syncTop = $("syncTop");
+  if (syncTop) syncTop.addEventListener("click", () => { switchView("cadastros"); setTimeout(() => $("ghOwner")?.scrollIntoView({ behavior: "smooth", block: "center" }), 250); });
   $("exportBackupRev").addEventListener("click", exportBackup);
   document.querySelectorAll(".nav-btn").forEach(btn => btn.addEventListener("click", () => switchView(btn.dataset.view)));
   $("copyReport").addEventListener("click", async () => {
@@ -678,6 +942,9 @@ function init() {
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => null));
   }
+  loadCentralStore({ silent: true });
+  window.addEventListener("focus", () => loadCentralStore({ silent: true }));
+  setInterval(() => loadCentralStore({ silent: true }), 5 * 60 * 1000);
 }
 
 window.addEventListener("beforeinstallprompt", (e) => {

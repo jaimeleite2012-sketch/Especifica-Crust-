@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#052e2b">
-  <title>Dashboard Crust Itália · Qualidade V25</title>
-  <link rel="manifest" href="manifest.webmanifest?v=25-cache-corrigido">
+  <title>Dashboard Crust Itália · Qualidade V26 GitHub Sync</title>
+  <link rel="manifest" href="manifest.webmanifest?v=26-github-sync">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=25-cache-corrigido">
+  <link rel="stylesheet" href="style.css?v=26-github-sync">
 </head>
 <body>
   <div class="app-shell">
@@ -27,10 +27,11 @@
             <span class="pill danger">Rev. <span id="heroRev">23</span></span>
             <span class="pill">Mobile first</span>
             <span class="pill edit-pill" id="localChangesPill">0 ajustes locais</span>
-            <span class="pill success">V25 editável</span>
+            <span class="pill success">V26 GitHub Sync</span>
+            <span class="pill" id="syncStatusPill">Central GitHub: aguardando</span>
           </div>
           <h2>Controle técnico na palma da mão</h2>
-          <p>Busque o artigo, abra a ficha técnica e atualize informações diretamente no celular durante a rotina de produção. Alterações locais ficam preservadas mesmo quando a base oficial for recarregada.</p>
+          <p>Busque o artigo, abra a ficha técnica e atualize informações diretamente no celular. Com GitHub Sync autorizado, uma alteração salva por você passa a atualizar o banco central e aparece para todos os usuários.</p>
           <div class="search-wrap">
             <input id="searchBox" type="search" autocomplete="off" placeholder="Pesquisar artigo, cliente, TR, cor, receita...">
           </div>
@@ -38,6 +39,7 @@
             <button class="primary-btn" id="newArticleTop">+ Novo artigo</button>
             <button class="ghost-btn" id="editSelectedTop">Editar selecionado</button>
             <button class="ghost-btn" id="exportBackupTop">Exportar backup</button>
+            <button class="ghost-btn" id="syncTop">GitHub Sync</button>
           </div>
         </div>
 
@@ -123,6 +125,6 @@
     </div>
   </template>
 
-  <script src="app.js?v=25-cache-corrigido"></script>
+  <script src="app.js?v=26-github-sync"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 {
-  "name": "Crust Qualidade Mobile Editável",
+  "name": "Crust Qualidade Sync Mobile Editável",
   "short_name": "Crust Quali",
-  "description": "Dashboard mobile editável para especificações Crust Itália.",
+  "description": "Dashboard mobile editável para especificações Crust Itália Sync.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#071716",

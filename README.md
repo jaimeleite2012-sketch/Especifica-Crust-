@@ -1,52 +1,37 @@
-# Dashboard Crust Itália · Qualidade V25
+# Dashboard Crust Itália · V26 GitHub Sync
 
-Versão mobile editável com correção de cache/PWA.
+Versão mobile-first com edição operacional centralizada via GitHub API.
 
-## Correção desta versão
+## Objetivo da V26
 
-- Arquivos CSS/JS/manifest com `?v=25-cache-corrigido` para evitar navegador carregar versão antiga.
-- Service Worker com política network-first para HTML.
-- Limpeza agressiva de caches antigos na ativação do PWA.
-- Mantém edição mobile, cadastro de novos artigos, marcação de obsoleto e backup local.
+A versão anterior gravava alterações apenas no navegador do celular/computador. A V26 mantém a segurança local como contingência, mas adiciona um **banco central GitHub**:
 
-## Publicação
+- quem consulta abre a base central mais recente;
+- quem possui token autorizado pode editar e enviar a alteração para todos;
+- cada alteração gera commit no GitHub;
+- o dashboard baixa a base central ao abrir, ao voltar para a tela e periodicamente.
 
-Substitua todos os arquivos na raiz do repositório GitHub Pages. Depois acesse:
+## Arquivos principais
 
-https://jaimeleite2012-sketch.github.io/Especifica-Crust-/?v=25-cache-corrigido
+- `index.html`: interface mobile.
+- `app.js`: lógica do dashboard e integração GitHub API.
+- `style.css`: layout e UX mobile.
+- `data/especificacao-crust-rev23.json`: base oficial extraída da matriz.
+- `data/crust-sync-store.json`: camada central de alterações operacionais.
+- `sw.js`: cache PWA com atualização forçada V26.
 
-Se ainda aparecer a versão antiga, remover o app da tela inicial e limpar dados do site no navegador.
+## Permissão necessária para salvar para todos
 
-# Dashboard Crust Itália · Qualidade · Mobile Editável V24
+Cada usuário autorizado precisa criar um **GitHub Fine-grained Personal Access Token** limitado ao repositório `jaimeleite2012-sketch/Especifica-Crust-`, com permissão:
 
-Dashboard PWA mobile-first gerado a partir da matriz **BRM-MDL-SQ-SGI-033 Rev.23**.
+- Repository permissions > Contents: Read and write
 
-## Atualização desta versão
+O token deve ser colado dentro do dashboard, na aba **Cadastro > Banco central GitHub API**. Ele fica salvo apenas no navegador do aparelho autorizado.
 
-Esta versão permite uso operacional direto no celular:
+## Segurança
 
-- Editar artigo existente durante a rotina de produção.
-- Cadastrar novo artigo em aba própria de cadastro.
-- Marcar artigo como **Obsoleto**; o card fica vermelho automaticamente.
-- Registrar observações operacionais locais.
-- Salvar alterações no navegador do celular via `localStorage`.
-- Reaplicar os ajustes locais mesmo quando a base oficial for atualizada no GitHub Pages.
-- Exportar/importar backup JSON dos ajustes locais.
+Não inclua token dentro do código, dentro do GitHub Pages ou em prints compartilhados. Usuários sem token podem consultar; usuários com token podem alterar o banco central.
 
-## Como publicar no GitHub Pages
+## URL esperada
 
-Envie todos os arquivos para a raiz do repositório e ative:
-
-`Settings > Pages > Deploy from a branch > main > /root > Save`
-
-URL esperada:
-
-`https://jaimeleite2012-sketch.github.io/Especifica-Crust-/`
-
-## Atenção operacional
-
-As alterações feitas no celular ficam salvas naquele navegador/aparelho. Para não perder dados em caso de troca de celular, limpeza de cache ou mudança de URL, use o botão **Exportar backup** periodicamente.
-
-## Confidencialidade
-
-Este dashboard contém dados técnicos industriais. Avalie a política interna antes de manter o repositório público.
+https://jaimeleite2012-sketch.github.io/Especifica-Crust-/?v=26-github-sync
